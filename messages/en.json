@@ -1,0 +1,14 @@
+{
+    "Index": {
+        "title": "Hi! I am Victor! 👋",
+        "subtitle": "Fullstack developer"
+    },
+
+
+
+    "Theme": {
+        "dark": "Dark",
+        "light": "Light",
+        "sys": "System"
+    }
+}

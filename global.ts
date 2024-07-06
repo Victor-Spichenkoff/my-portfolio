@@ -1,0 +1,1 @@
+export const allLocales = ["br", "en"]
