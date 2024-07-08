@@ -34,7 +34,6 @@ export const ToggleLocale = () => {
   const handleENClick = () => {
     setNewLocale("en")
     changeLocale("en")
-    console.log("ENIN")
   }
 
   return (

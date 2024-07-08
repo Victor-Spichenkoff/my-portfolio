@@ -24,8 +24,8 @@ export default async function RootLayout({
   const messages = await getMessages()   
 
   return (
-    <html lang={locale} className="h-screen">
-      <body className={cn(inter.className, "h-full")}>
+    <html lang={locale} className="">
+      <body className={cn(inter.className, "min-h-screen overflow-y-scroll scroll-smooth")}>
       <NextIntlClientProvider messages={messages}>
       <AllProviders params={{ locale }}>
         {children}

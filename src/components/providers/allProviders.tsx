@@ -14,7 +14,7 @@ export const AllProviders = async ({ children, params: { locale } }: IAllProvide
 
         <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="dark"
         >
             {children}
         </ThemeProvider>

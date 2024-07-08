@@ -1,5 +1,5 @@
 {
-    "Index": {
+    "Presentation": {
         "title": "Hi! I am Victor! 👋",
         "subtitle": "Fullstack developer"
     },
@@ -10,5 +10,10 @@
         "dark": "Dark",
         "light": "Light",
         "sys": "System"
+    },
+
+
+    "Footer": {
+        "message": "Made with ❤️ by Victor Spichenkoff"
     }
 }
