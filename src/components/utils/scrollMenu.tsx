@@ -14,7 +14,7 @@ interface IScrollMenu {
  */
 export const ScrollMenu = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const ids: string[] = ["me", "contact"]
+    const ids: string[] = ["me", "formation", "contact"]
 
     const checkCurrentScreen = (id: string) => {
         const element = document.getElementById(id)

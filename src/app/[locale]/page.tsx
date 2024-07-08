@@ -10,6 +10,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { ScrollMenu } from "@/components/utils/scrollMenu";
 import { useEffect, useState } from "react";
+import { Formation } from "@/components/sections/Formation";
 
 export default function Home() {
 
@@ -49,6 +50,10 @@ export default function Home() {
 
 
       <FullSection>
+        <Formation />
+      </FullSection>
+      <FullSection>
+
         Teste
         <Footer />
       </FullSection>
