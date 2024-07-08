@@ -14,7 +14,7 @@ export const Presentation = () => {
         <div className="max-w-[900px] mx-auto relative">
             <div className="flex justify-between max-w-[900px] mx-auto">
                 <Header label={title} />
-                <div className="flex space-x-4" id="me">
+                <div className="flex space-x-4 absolute top-4 left-8" id="me">
                     <ThemeToggle />
                     <ToggleLocale />
                 </div>
