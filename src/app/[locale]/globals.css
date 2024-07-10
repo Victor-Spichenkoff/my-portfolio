@@ -78,38 +78,29 @@
 
 
 
-/* .slider {
-  animation: scroll 5s linear infinite;
+.slider {
+  animation: scroll 7s linear infinite;
 }
 
-#slider1 {
-  animation: scroll 5s 0s linear infinite;
+ #slider1 {
+  animation: scroll-absolute 20s linear infinite;
 }
 #slider2 {
-  animation: scroll2 10s linear infinite;
-} */
+  animation: scroll-absolute 20s 10s linear infinite;
+}
 
 
-@keyframes scroll {
+@keyframes scroll-absolute {
   0% {
-    transform: translateX(0);
-    margin-left: 0;
+    left: 0;
+    
   }
 
   100% {
-    transform: translateX(-200%);
+    left: -140%;
   }
 }
-@keyframes scroll2 {
-  0% {
-    transform: translateX(0);
-    margin-left: 0;
-  }
 
-  100% {
-    transform: translateX(-300%);
-  }
-}
 
 
 

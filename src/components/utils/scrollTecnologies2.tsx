@@ -15,17 +15,15 @@ export const ScrolTecnologies2 = () => {
 
 
     return (
-        <div className="max-w-[900px] absolute bottom-0 w-full  bg-gray-800 text-white py-2 rounded-sm">
-            <div className='w-[calc(250%)] flex justify-between bg-red-600'>
-                <div className='flex bg-blue-600' id="slider1">
+        <div className="max-w-[900px] absolute bottom-0 w-full  bg-gray-800 text-white py-2 rounded-sm items-center h-[60px] overflow-hidden">
+            <div className='ml-[100%] w-[calc(200%)] bg-red-500 flex justify-end relative'>
+                <div className='absolute top-[0px] left-[100px] flex flex-1' id="slider1">
                     {allIcons}
                 </div>
-                <div className='flex bg-green-500' id="slider2">
+                <div className='absolute top-[0px] left-0 flex' id="slider2">
                     {allIcons}
                 </div>
             </div>
         </div>
     )
 }
-//primeito --> 100ml
-//segundo --> 
