@@ -82,7 +82,8 @@
   animation: scroll 7s linear infinite;
 }
 
- #slider1 {
+
+#slider1 {
   animation: scroll-absolute 20s linear infinite;
 }
 #slider2 {
@@ -93,18 +94,13 @@
 @keyframes scroll-absolute {
   0% {
     left: 0;
-    
+
   }
 
   100% {
     left: -140%;
   }
 }
-
-
-
-
-
 
 ::-webkit-scrollbar {
   width: 0;

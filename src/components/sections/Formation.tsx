@@ -1,6 +1,6 @@
 import { Header } from "../template/header"
 import { useTranslations } from "next-intl"
-import { ScrolTecnologies2 } from "../utils/scrollTecnologies2"
+import { ScrolTecnologies } from "../utils/scrollTecnologies"
 
 export const Formation = () => {
     const t= useTranslations("Formation")
@@ -10,7 +10,7 @@ export const Formation = () => {
             <div ></div> 
             <Header label={title} />
 
-            <ScrolTecnologies2 /> 
+            <ScrolTecnologies /> 
         </div>
     )
 }
