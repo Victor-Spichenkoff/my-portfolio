@@ -5,6 +5,7 @@ import { ToggleLocale } from "../utils/toggleLocale"
 import { Rows } from "lucide-react"
 import Image from "next/image"
 import Moked from '@/assets/moked.png'
+import { ScrolTecnologies } from "../utils/scrollTecnologies"
 
 export const Presentation = () => {
     const t = useTranslations("Presentation")
@@ -12,12 +13,12 @@ export const Presentation = () => {
     const sub = t("subtitle")
     const text = t("text")
 
-    return (<div className="relative h-screen flex justify-start items-center">
+    return (<div className="relative h-screen flex justify-start items-start">
         <div className="flex space-x-4 absolute top-4 flex-wrap" id="me">
             <ThemeToggle />
             <ToggleLocale />
         </div>
-        <div className="max-w-[900px] md:ml-20 relative">
+        <div className="max-w-[900px] md:ml-20 relative mt-32">
             <div className="flex justify-between max-w-[900px] mx-auto">
                 <Header label={title} />
 
@@ -38,5 +39,8 @@ export const Presentation = () => {
                 </div>
             </div>
         </div>
+        <ScrolTecnologies />
+
+        
     </div>)
 }

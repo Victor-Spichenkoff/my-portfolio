@@ -16,7 +16,7 @@ import DOC from "@/assets/stacks/doc.png"
 import Image from 'next/image'
 
 
-type AllStack = "HTML" | "CSS" | "JS" | "TS" | "CS" | "REACT" | "NEXT" | "DOTNET" | "Node" | "POST" | "MONGO" | "Python" | "DOC" | "Diplome"
+export type AllStack = "HTML" | "CSS" | "JS" | "TS" | "CS" | "REACT" | "NEXT" | "DOTNET" | "Node" | "POST" | "MONGO" | "Python" | "DOC" | "Diplome"
 
 
 export const stacksArray = [
