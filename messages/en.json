@@ -1,12 +1,14 @@
 {
     "Presentation": {
         "title": "Hi! I am Victor! 👋",
-        "subtitle": "Fullstack developer"
+        "subtitle": "Fullstack developer",
+        "text": "I've been delving deeper since 2022, making evolutions every day. Looking for a new opportunity to be rich. A hope for a good place to work, with smarter people and a huge salary"
     },
 
     "Formation": {
-        "title": "Formações",
-        "bach": "Bachelor"
+        "title": "Formation",
+        "bach": "Bachelor",
+        "sk": "Skills"
     },
 
 

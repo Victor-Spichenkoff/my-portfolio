@@ -55,7 +55,7 @@ export const ScrollMenu = () => {
 
 
     return (
-        <div className="fixed right-4 top-1/2 transform -translate-y-1/2 ">
+        <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-10 ">
             {ids.map((v, i) => {
                 const color = i == currentIndex ? "white" : "gray"
                 return (
