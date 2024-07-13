@@ -14,7 +14,7 @@ interface IScrollMenu {
  */
 export const ScrollMenu = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const ids: string[] = ["me", "formation", "contact"]
+    const ids: string[] = ["me", "formation", "projects","contact"]
 
     const checkCurrentScreen = (id: string) => {
         const element = document.getElementById(id)
@@ -62,7 +62,6 @@ export const ScrollMenu = () => {
                     <p className="mt-2" key={i}>
                         <Link href={`#${v}`}>
                             <Diamond size={15} stroke={color} />
-
                         </Link>
                     </p>
                 )

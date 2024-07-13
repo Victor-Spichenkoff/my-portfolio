@@ -63,8 +63,8 @@ export const FormationItem = ({ provider, stacks, text, percent="100", bigIcon}:
 
             { provider=="Uninter" && (
                 <div className={`absolute text-xs bg-yellow-400 text-black border-2 border-yellow-600
-                top-${Tbach=="Bachelor" ? "[8px]" : "4"} 
-                -right-${Tbach=="Bachelor" ? "[12px]" : "[17px]"}
+                ${Tbach=="Bachelor" ? " top-[8px]" : " top-4"} 
+                ${Tbach=="Bachelor" ? "-right-[12px]" : "-right-[17px]"}
                 rotate-[40deg] 
                 px-2 py-1 
                 shadow-lg 
