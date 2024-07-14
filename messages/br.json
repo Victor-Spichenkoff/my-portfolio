@@ -12,7 +12,13 @@
     },
 
     "Projects": {
-        "portfolios": "Portfios share"
+        "title": "Principais Projetos",
+        "portfolios-title": "Portfios share",
+        "portfolios-desc": "Minha descrição sobre eleaf djhfdsj fdsfdjs fisbf fbadsfh dsahfbdsf sdhfbds faubsf",
+        "arc-title": "Articles Site",
+        "arc-desc": "Ele cria atigos e publica",
+        "pag-title": "Teste Paginações",
+        "pag-desc": "Teste pagina~çoes sem precisar modificar nada do seu código final!"
     },
 
 

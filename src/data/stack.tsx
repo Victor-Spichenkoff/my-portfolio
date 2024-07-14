@@ -16,17 +16,18 @@ import DOC from "@/assets/stacks/doc.png"
 import Cloud from "@/assets/stacks/Cloud.png"
 import Security from "@/assets/stacks/Security.png"
 import GitHub from "@/assets/stacks/GitHub.webp"
+import Tail from "@/assets/stacks/tail.png"
 import Image from 'next/image'
 
-export type AllStack = "HTML" | "CSS" | "JS" | "TS" | "CS" | "REACT" | "NEXT" | "DOTNET" | "Node" | "POST" | "MONGO" | "Python" | "DOC" | "Diplome" | "Security" | "Cloud" | "GitHub"
+export type AllStack = "HTML" | "CSS" | "JS" | "TS" | "CS" | "REACT" | "NEXT" | "DOTNET" | "Node" | "POST" | "MONGO" | "Python" | "DOC" | "Diplome" | "Security" | "Cloud" | "GitHub" | "Tail"
 
 
 export const stacksArray = [
-    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome
+    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, Tail,DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome
 ]
 
 export const stackObj = {
-    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome
+    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome, Tail
 }
 
 

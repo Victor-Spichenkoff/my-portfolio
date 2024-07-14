@@ -21,7 +21,7 @@ export default function Home() {
 
       <FullSection>
         <Formation />
-      </FullSection> */}
+      </FullSection>  */}
 
 
       <FullSection>
