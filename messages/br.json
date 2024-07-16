@@ -18,7 +18,11 @@
         "arc-title": "Articles Site",
         "arc-desc": "Ele cria atigos e publica",
         "pag-title": "Teste Paginações",
-        "pag-desc": "Teste pagina~çoes sem precisar modificar nada do seu código final!"
+        "pag-desc": "Teste pagina~çoes sem precisar modificar nada do seu código final!",
+        "bing-title": "BINGO",
+        "bing-desc": "É, você leu direito! Um jogo de bingo totalmente realista: Sorteio de números, cartelas e, para ter emoção, adversários!",
+        "cri-title": "CRIPTOGRAFIA",
+        "cri-desc": "É, você leu direito! Um jogo de bingo totalmente realista: Sorteio de números, cartelas e, para ter emoção, adversários!"
     },
 
 

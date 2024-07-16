@@ -25,7 +25,7 @@ export const Presentation = () => {
             </div>
             <div className="text-xl dark:text-dark-text font-semibold">{sub}</div>
 
-            <hr className="w-40 h-3 my-8 bg-white border-0 dark:bg-white/85" />
+            <hr className="w-40 h-3 my-8 bg-black border-0 dark:bg-white/85" />
 
 
             {/* Minha apresentção grande + foto */}
@@ -33,9 +33,9 @@ export const Presentation = () => {
                 <p className="pr-10 md:max-w-[500px] md:text-justify">
                     {text}
                 </p>
-                <div className="mr-8 -mt-28 hidden md:block">
+                <div className="mr-8 -mt-36 hidden md:block">
                     <Image src={Moked} alt="Perfil"
-                        className="w-40" />
+                        className="w-64" />
                 </div>
             </div>
         </div>

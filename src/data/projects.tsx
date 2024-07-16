@@ -11,6 +11,15 @@ import A2 from "@/assets/screenshots/artc2.png"
 import A3 from "@/assets/screenshots/artc3.png"
 
 import PAG1 from "@/assets/screenshots/pag1.png"
+import PAG2 from "@/assets/screenshots/pag2.png"
+import PAG3 from "@/assets/screenshots/pag3.png"
+
+import B1 from "@/assets/screenshots/b1.png"
+import B2 from "@/assets/screenshots/b2.png"
+import B3 from "@/assets/screenshots/b3.png"
+
+import C1 from "@/assets/screenshots/c1.png"
+import C2 from "@/assets/screenshots/c2.png"
 
 
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
@@ -50,8 +59,20 @@ export const projectsData: IProjectForItem[] = [
     },
     { 
         traslate: "pag", 
-        images: [ PAG1, A2, A3 ],
+        images: [ PAG1, PAG3, PAG2 ],
         stacks: projectsWithStack.Pagination,
         url: "https://github.com/Victor-Spichenkoff/pagination-api"
+    },
+    { 
+        traslate: "bing", 
+        images: [ B1,B2, B3 ],
+        stacks: projectsWithStack.Pagination,
+        url: "https://github.com/Victor-Spichenkoff/pagination-api"
+    },
+    { 
+        traslate: "cri", 
+        images: [ C1, C2 ],
+        stacks: projectsWithStack.Pagination,
+        url: "https://victor-spichenkoff.github.io/criptografia/"
     },
 ]
