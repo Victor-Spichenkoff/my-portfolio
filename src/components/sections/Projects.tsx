@@ -21,7 +21,7 @@ export default () => {
                             title={t(`${p.traslate}-title`)}
                             description={t(`${p.traslate}-desc`)}
                             stacks={p.stacks}
-                            isLeftSide={i % 2 == 1}//coloc a esquerda nos impares
+                            isLeftSide={i % 2 == 1}//coloca a esquerda nos impares
                             bgImagesSrc={p.images}
                             url={p.url}
                         />
@@ -29,28 +29,6 @@ export default () => {
 
                 })}
             </div>
-{/* 
-            <ProjectItem title={t("portfolios-title")} description="kdigj iadbf asfif adibfkld flubdufygdsf asfdjds fugsf dsfygsdlhf udosfjds fyv" 
-                stacks={p.Portfolios}
-                isLeftSide
-            />
-            <ProjectItem title="Portfolios" description="kdigj iadbf asfif adibfkld flubdufygdsf asfdjds fugsf dsfygsdlhf udosfjds fyv" 
-                stacks={p.Portfolios}
-                
-            />
-            <ProjectItem title="Portfolios" description="kdigj iadbf asfif adibfkld flubdufygdsf asfdjds fugsf dsfygsdlhf udosfjds fyv" 
-                stacks={p.Portfolios}
-                isLeftSide
-            />
-            <ProjectItem title="Portfolios" description="kdigj iadbf asfif adibfkld flubdufygdsf asfdjds fugsf dsfygsdlhf udosfjds fyv" 
-                stacks={p.Portfolios}
-                
-            />
-            <ProjectItem title="Portfolios" description="kdigj iadbf asfif adibfkld flubdufygdsf asfdjds fugsf dsfygsdlhf udosfjds fyv" 
-                stacks={p.Portfolios}
-                isLeftSide
-            />  */}
-
         </div>
     )
 }

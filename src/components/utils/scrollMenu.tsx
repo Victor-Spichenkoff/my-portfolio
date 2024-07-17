@@ -14,17 +14,17 @@ interface IScrollMenu {
  */
 export const ScrollMenu = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const ids: string[] = ["me", "formation", "projects","contact"]
+    const ids: string[] = ["me", "formation", "projects", "contact"]
 
     const checkCurrentScreen = (id: string) => {
         const element = document.getElementById(id)
         if (element) {
             const rect = element.getBoundingClientRect()
-            const top = rect.top;
-            const bottom = rect.bottom;
+            const top = rect.top
+            const bottom = rect.bottom
 
 
-            const isVisible = (top >= 0 && bottom <= window.innerHeight);
+            const isVisible = (top < window.innerHeight && bottom > 0)
             if (isVisible) {
                 const index = ids.indexOf(id)
                 setCurrentIndex(index)
