@@ -51,7 +51,7 @@ export const ScrollMenu = () => {
         return () => {
             scrolavel?.removeEventListener("scroll", handleScroll)
         }
-    }, [])
+    }, [handleScroll])
 
 
     return (

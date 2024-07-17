@@ -7,7 +7,7 @@ import { projectsWithStack as p, projectsData } from "@/data/projects"
 
 
 
-export default () => {
+const Projects = () => {
     const t = useTranslations("Projects")
     const title = t("title")
 
@@ -24,6 +24,7 @@ export default () => {
                             isLeftSide={i % 2 == 1}//coloca a esquerda nos impares
                             bgImagesSrc={p.images}
                             url={p.url}
+                            key={i}
                         />
                     )
 
@@ -32,3 +33,5 @@ export default () => {
         </div>
     )
 }
+
+export default Projects
