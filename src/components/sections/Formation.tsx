@@ -11,7 +11,8 @@ export const Formation = () => {
         <div className="pt-8 relative h-full mt-2 overflow-hidden" id="formation">
             <div ></div>
             <Header label={title} />
-            <div className=" mt-10 flex gap-[50px] flex-wrap justify-center shadow-md bg-black/20 -ml-4 -mr-4 p-4 py-8 md:-ml-0 md:mr-0 md:p-4 md:py-6 rounded-lg">
+            <div className=" mt-10 flex gap-[50px] flex-wrap justify-center shadow-md bg-black/20 px-4 py-8 rounded-lg ">
+            {/* <div className=" mt-10 flex gap-[50px] flex-wrap justify-center shadow-md bg-black/20 -ml-4 -mr-4 p-4 py-8 md:-ml-0 md:mr-0 md:p-4 md:py-6 rounded-lg"> */}
                 <FormationItem provider="Uninter" stacks={f.Uninter} percent="20" bigIcon />
                 <FormationItem provider="Google" stacks={f.Google} text="Google Cloud" />
 
@@ -21,7 +22,7 @@ export const Formation = () => {
                 <FormationItem provider="Desenvolvedor.io" stacks={f.Desenvolvedor} />
                 <FormationItem provider="Cod3r" stacks={f.Cod3r} />
             </div>
-
+        
 
         </div>
     )
