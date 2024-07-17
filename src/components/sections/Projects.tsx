@@ -12,7 +12,7 @@ export default () => {
     const title = t("title")
 
     return (
-        <div id="projects" className="mt-14">
+        <div id="projects" className="mt-28">
             <Header label={title} />
             <div>
                 {projectsData.map((p, i) => {

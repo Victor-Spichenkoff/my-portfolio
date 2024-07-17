@@ -38,7 +38,7 @@ export const FormationItem = ({ provider, stacks, text, percent="100", bigIcon}:
     })
 
     return (
-        <div className="flex w-[400px] h-[113px] bg-gray-800 rounded-md relative overflow-hidden text-dark-text shadow-md">
+        <div className="flex w-11/12  lg:w-[45%] h-[113px] bg-gray-800 rounded-md relative overflow-hidden text-dark-text shadow-md">
             <div className="w-[100px] bg-white flex items-center">
                 { provider !== "Desenvolvedor.io" ? (
                     <Image src={getProviderImageByName(provider)} width={100}

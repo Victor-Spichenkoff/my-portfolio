@@ -15,7 +15,7 @@ export const ScrolTecnologies = () => {
 
 
     return (
-        <div className="max-w-[900px] absolute bottom-8 w-full  bg-gray-800 text-white py-2 rounded-sm items-center h-[60px] overflow-hidden hidden md:block">
+        <div className="max-w-[1200px] absolute bottom-8 w-full  bg-gray-800 text-white py-2 rounded-sm items-center h-[60px] overflow-hidden hidden md:block">
             <div className='ml-[100%] w-[calc(200%)] bg-red-500 flex justify-end relative'>
                 <div className='absolute top-[0px] left-[100px] flex flex-1' id="slider1">
                     {allIcons}

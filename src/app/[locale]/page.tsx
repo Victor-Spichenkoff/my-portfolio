@@ -10,7 +10,7 @@ import { TopBlur } from "@/components/utils/topBlur";
 export default function Home() {
   return (
     <div className="text-gray-800 dark:text-gray-300
-    bg-gradient-to-br from-zinc-100 to-zinc-400 dark:from-dark-main dark:to-dark-section h-screen snap-y snap-mandatory overflow-y-scroll" id="scrolavel">
+    bg-gradient-to-br from-zinc-100 to-zinc-400 dark:from-dark-main dark:to-dark-section h-screen snap-y snap-mandatory overflow-y-scroll md:px-10" id="scrolavel">
       <ScrollMenu />
       {/* <TopBlur /> */}
 
@@ -30,6 +30,7 @@ export default function Home() {
 
 
       <FullSection>
+        <div className="mt-28"></div>
         Teste
         <Footer />
       </FullSection>
