@@ -66,7 +66,7 @@ export const projectsData: IProjectForItem[] = [
         traslate: "bing", 
         images: [ B1,B2, B3 ],
         stacks: projectsWithStack.Bingo,
-        url: "https://github.com/Victor-Spichenkoff/pagination-api"
+        url: "https://victor-spichenkoff.github.io/bingo-build/"
     },
     { 
         traslate: "cri", 
