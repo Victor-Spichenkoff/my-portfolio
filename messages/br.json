@@ -33,6 +33,12 @@
     },
 
 
+    "Contact": {
+        "title": "Contato",
+        "sub": "Entre em contato comigo!",
+        "cv": "Meu currículo"
+    },
+
     "Footer": {
         "message": "Feito com ❤️ por Victor Spichenkoff"
     }

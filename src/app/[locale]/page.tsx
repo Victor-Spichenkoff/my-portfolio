@@ -6,6 +6,8 @@ import { ScrollMenu } from "@/components/utils/scrollMenu";
 import { Formation } from "@/components/sections/Formation";
 import Projects from "@/components/sections/Projects";
 import { TopBlur } from "@/components/utils/topBlur";
+import { Contact } from "@/components/sections/Contact";
+
 
 export default function Home() {
   return (
@@ -19,20 +21,18 @@ export default function Home() {
       </FullSection>
 
 
-      <FullSection>
+     {/* <FullSection>
         <Formation />
       </FullSection> 
 
 
       <FullSection>
         <Projects />
-      </FullSection>
+      </FullSection>  */}
 
 
       <FullSection>
-        <div className="mt-28"></div>
-        Teste
-        <Footer />
+        <Contact />
       </FullSection>
 
 

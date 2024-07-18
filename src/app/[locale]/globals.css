@@ -105,3 +105,7 @@
 ::-webkit-scrollbar {
   width: 0;
 }
+
+#contact-icons a:hover {
+  transform: scale(1.1);
+}
