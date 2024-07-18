@@ -16,9 +16,10 @@ interface IProjectItem {
 
 export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios], stacks, isLeftSide=false, url }: IProjectItem) => {
     return ( <Link href={url ?? "/"} target="_blank">
-        <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 bg-black/20 p-6 rounded-lg shadow-lg 
-            hover:scale-105
-            `}>
+        <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 bg-black/20 p-6 rounded-lg shadow-lg
+            `}
+            id="project-item-containter"
+            >
             <div className="w-full md:w-1/2 p-4 relative">
                 <div className="relative z-10">
                     <h2 className="text-3xl font-bold mb-2">{title}</h2>

@@ -1,7 +1,7 @@
 interface IHeader {
     label: string
     subtitle?: string
-    fine: boolean
+    fine?: boolean
 }
 
 export const Header = ({ label, subtitle, fine }: IHeader) => {

@@ -2,7 +2,7 @@
     "Presentation": {
         "title": "Olá! Eu sou Victor! 👋",
         "subtitle": "Desenvolvedor fullstack",
-        "text": "Venho aprofundando meus conhecimentos na fastástica área do desenvolvimento já faz 2 anos. Cada dia me motivo mais a buscar evoluir. Com sólido conhecimento, busco novas oportunidades de colaborar para a criação de novos projetos e experiências."
+        "text": "Estou aprofundando meus conhecimentos na área do desenvolvimento há 2 anos. A cada dia, sinto-me mais motivado a buscar novas maneiras de evoluir. Com um conhecimento sólido, estou sempre em busca de novas oportunidades para colaborar na criação de projetos inovadores e impactantes."
     },
 
     "Formation": {
@@ -13,16 +13,17 @@
 
     "Projects": {
         "title": "Principais Projetos",
-        "portfolios-title": "Portfios share",
-        "portfolios-desc": "Minha descrição sobre eleaf djhfdsj fdsfdjs fisbf fbadsfh dsahfbdsf sdhfbds faubsf",
-        "arc-title": "Articles Site",
-        "arc-desc": "Ele cria atigos e publica",
-        "pag-title": "Teste Paginações",
-        "pag-desc": "Teste pagina~çoes sem precisar modificar nada do seu código final!",
-        "bing-title": "BINGO",
-        "bing-desc": "É, você leu direito! Um jogo de bingo totalmente realista: Sorteio de números, cartelas e, para ter emoção, adversários!",
-        "cri-title": "CRIPTOGRAFIA",
-        "cri-desc": "É, você leu direito! Um jogo de bingo totalmente realista: Sorteio de números, cartelas e, para ter emoção, adversários!"
+        "portfolios-title": "Compartilhe Portfólios",
+        "portfolios-desc": "Crie seu portfólio ou veja o de outros programadores. Sistema de login, curtidas, rolagem infinita e muito mais!",
+        "arc-title": "Site de Artigos",
+        "arc-desc": "Crie, edite e leia artigos. Sistema de login, categorias, busca de artigos e mais!",
+        "pag-title": "Placeholder de Paginação",
+        "pag-desc": "API para fornecer itens de paginação. Melhor que qualquer outra: edite os campos, páginas, tipos e retornos. Facilita o teste de paginação em qualquer sistema.",
+        "bing-title": "BINGO!",
+        "bing-desc": "Sim, você leu certo! Um jogo de bingo totalmente realista: sorteio de números, cartelas e, para ter mais emoção, adversários!",
+        "cri-title": "Criptografia",
+        "cri-desc": "Método próprio de criptografia. Permite codificar mensagens e descriptografá-las."
+           
     },
 
 
@@ -35,7 +36,10 @@
 
     "Contact": {
         "title": "Contato",
-        "sub": "Entre em contato comigo!",
+        "sub": "Que tal nos conhecermos?",
+        "text1": "Para ver todos os meus projetos, clique ",
+        "here": "AQUI",
+        "text2": ". Entre em contato comigo para saber mais através dos links abaixo:",
         "cv": "Meu currículo"
     },
 

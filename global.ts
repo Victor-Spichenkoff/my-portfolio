@@ -1,1 +1,1 @@
-export const allLocales = ["br", "en"]
+export const allLocales = ["br", "en", "es", "it", "de"]

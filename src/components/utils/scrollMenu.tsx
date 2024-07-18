@@ -54,13 +54,26 @@ export const ScrollMenu = () => {
     }, [handleScroll])
 
 
+    const handleClick = (e:any, id:string) => {
+        e.preventDefault()
+        const targetElement = document.getElementById(id)
+    
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth',
+          })
+        }
+    }
+
+
     return (
         <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-10 ">
             {ids.map((v, i) => {
                 const color = i == currentIndex ? "white" : "gray"
                 return (
                     <p className="mt-2" key={i}>
-                        <Link href={`#${v}`}>
+                        <Link href={`#${v}`} scroll >
                             <Diamond size={15} stroke={color} />
                         </Link>
                     </p>

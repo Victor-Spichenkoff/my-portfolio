@@ -25,12 +25,11 @@ import C2 from "@/assets/screenshots/c2.png"
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
 
 export const projectsWithStack = {
-    Portfolios: getSeveralStacksIcons(["HTML", "CSS", "Node" ,"TS", "NEXT", "POST", "Security", "Tail"]),
-    Articles: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "Node","Security"]) ,
-    Pagination: getSeveralStacksIcons(["HTML", "CSS", "Node", "TS", "NEXT"]),
-    Cod3r: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "GitHub"]) ,
-    B7Web: getSeveralStacksIcons(["TS", "NEXT", "Node", "DOC" ,"MONGO", "POST", "GitHub"]) ,
-    Uninter: getSeveralStacksIcons(["Diplome"]) 
+    Portfolios: getSeveralStacksIcons(["HTML", "CSS", "Node" ,"TS", "NEXT", "POST", "Security", "Tail", "GitHub"]),
+    Articles: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "Node","Security", "MONGO", "GitHub"]) ,
+    Pagination: getSeveralStacksIcons(["HTML", "CSS", "TS", "Node", "NEXT"]),
+    Bingo: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "GitHub"]) ,
+    Cripto: getSeveralStacksIcons(["HTML", "CSS", "JS", "GitHub"])
 }
 
 interface IProjectForItem {
@@ -66,13 +65,13 @@ export const projectsData: IProjectForItem[] = [
     { 
         traslate: "bing", 
         images: [ B1,B2, B3 ],
-        stacks: projectsWithStack.Pagination,
+        stacks: projectsWithStack.Bingo,
         url: "https://github.com/Victor-Spichenkoff/pagination-api"
     },
     { 
         traslate: "cri", 
         images: [ C1, C2 ],
-        stacks: projectsWithStack.Pagination,
+        stacks: projectsWithStack.Cripto,
         url: "https://victor-spichenkoff.github.io/criptografia/"
     },
 ]

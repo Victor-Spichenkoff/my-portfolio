@@ -1,0 +1,46 @@
+{
+    "Presentation": {
+        "title": "¡Hola! Soy Victor! 👋",
+        "subtitle": "Desarrollador fullstack",
+        "text": "He estado profundizando mis conocimientos en el área del desarrollo durante 2 años. Cada día me siento más motivado a buscar nuevas maneras de evolucionar. Con un conocimiento sólido, siempre estoy en busca de nuevas oportunidades para colaborar en la creación de proyectos innovadores y experiencias impactantes."
+    },
+
+    "Formation": {
+        "title": "Formaciones",
+        "bach": "Licenciatura",
+        "sk": "Habilidades"
+    },
+
+    "Projects": {
+        "title": "Principales Proyectos",
+        "portfolios-title": "Comparte Portafolios",
+        "portfolios-desc": "Crea tu portafolio o mira el de otros programadores. Sistema de inicio de sesión, me gusta, desplazamiento infinito y mucho más!",
+        "arc-title": "Sitio de Artículos",
+        "arc-desc": "Crea, edita y lee artículos. Sistema de inicio de sesión, categorías, búsqueda de artículos y más!",
+        "pag-title": "Placeholder de Paginación",
+        "pag-desc": "API para proporcionar elementos de paginación. Mejor que cualquier otra: edita los campos, páginas, tipos y retornos. Facilita la prueba de paginación en cualquier sistema.",
+        "bing-title": "¡BINGO!",
+        "bing-desc": "Sí, leíste bien! Un juego de bingo totalmente realista: sorteo de números, cartones y, para mayor emoción, ¡oponentes!",
+        "cri-title": "Cifrado",
+        "cri-desc": "Método propio de cifrado. Permite codificar mensajes y descifrarlos."
+    },
+
+    "Theme": {
+        "dark": "Oscuro",
+        "light": "Claro",
+        "sys": "Sistema"
+    },
+
+    "Contact": {
+        "title": "Contacto",
+        "sub": "¿Qué tal si nos conocemos?",
+        "text1": "Para ver todos mis proyectos, haz clic ",
+        "here": "AQUÍ",
+        "text2": ". Ponte en contacto conmigo para saber más a través de los enlaces a continuación:",
+        "cv": "Mi currículo"
+    },
+
+    "Footer": {
+        "message": "Hecho con ❤️ por Victor Spichenkoff"
+    }
+}

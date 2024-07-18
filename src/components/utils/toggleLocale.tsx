@@ -13,6 +13,10 @@ import { useState } from "react"
 import Link from "next/link"
 import { useRouter, usePathname } from "@/navigation"
 
+
+export type ILocales = "en" | "br" | "es" | "it" | "de"
+
+
 export const ToggleLocale = () => {
   const [newLocale, setNewLocale] = useState("en")
   const router = useRouter()
@@ -21,7 +25,7 @@ export const ToggleLocale = () => {
 
 
   
-  const changeLocale = (locale: "en" | "br") => {
+  const changeLocale = (locale: ILocales) => {
     setNewLocale(locale)
     router.replace(pathname, {locale})
   }
@@ -34,6 +38,16 @@ export const ToggleLocale = () => {
   const handleENClick = () => {
     setNewLocale("en")
     changeLocale("en")
+  }
+
+  const handleESClick = () => {
+    setNewLocale("es")
+    changeLocale("es")
+  }
+
+  const hanleOthers = (locale: ILocales) => {
+    setNewLocale(locale)
+    changeLocale(locale)
   }
 
   return (
@@ -51,6 +65,15 @@ export const ToggleLocale = () => {
         <DropdownMenuItem onClick={handleBRClick}>
           Português
         </DropdownMenuItem>
+        <DropdownMenuItem onClick={()=>hanleOthers("es")}>
+          Español
+        </DropdownMenuItem>
+        {/* <DropdownMenuItem onClick={()=>hanleOthers("de")}>
+          Deutsch
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={()=>hanleOthers("it")}>
+          Italiano
+        </DropdownMenuItem> */}
       </DropdownMenuContent>
       </DropdownMenu>
     </div>

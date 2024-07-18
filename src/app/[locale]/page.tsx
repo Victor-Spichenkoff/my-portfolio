@@ -21,14 +21,14 @@ export default function Home() {
       </FullSection>
 
 
-     {/* <FullSection>
+     <FullSection>
         <Formation />
       </FullSection> 
 
 
       <FullSection>
         <Projects />
-      </FullSection>  */}
+      </FullSection> 
 
 
       <FullSection>

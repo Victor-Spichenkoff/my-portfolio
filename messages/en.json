@@ -2,7 +2,7 @@
     "Presentation": {
         "title": "Hi! I am Victor! 👋",
         "subtitle": "Fullstack developer",
-        "text": "I've been delving deeper since 2022, making evolutions every day. Looking for a new opportunity to be rich. A hope for a good place to work, with smarter people and a huge salary"
+        "text": "I have been deepening my knowledge in the field of development for the past 2 years. Every day, I am more motivated to find new ways to evolve. With a solid foundation, I am always looking for new opportunities to collaborate in creating innovative projects and impactful experiences."
     },
 
     "Formation": {
@@ -13,16 +13,16 @@
 
     "Projects": {
         "title": "Main Projects",
-        "portfolios-title": "Portfios share",
-        "portfolios-desc": "Minha descrição sobre eleaf djhfdsj fdsfdjs fisbf fbadsfh dsahfbdsf sdhfbds faubsf",
+        "portfolios-title": "Share Portfolios",
+        "portfolios-desc": "Create your portfolio or view other programmers' portfolios. Login system, likes, infinite scrolling, and much more!",
         "arc-title": "Articles Site",
-        "arc-desc": "Ele cria atigos e publica",
-        "pag-title": "Teste Paginações",
-        "pag-desc": "Teste pagina~çoes sem precisar modificar nada do seu código final!",
-        "bing-title": "BINGO",
-        "bing-desc": "É, você leu diretito! Um jogo de bingo totalmente realista: Sorteio de números, cartelas e, para ter emoção, adversários!",
-        "cri-title": "CRIPTOGRAFIA",
-        "cri-desc": "É, você leu direito! Um jogo de bingo totalmente realista: Sorteio de números, cartelas e, para ter emoção, adversários!"
+        "arc-desc": "Create, edit, and read articles. Login system, categories, article search, and more!",
+        "pag-title": "Pagination Placeholder",
+        "pag-desc": "API to provide pagination items. Better than any other: edit fields, pages, types, and returns. Makes testing pagination in any system easier.",
+        "bing-title": "BINGO!",
+        "bing-desc": "Yes, you read that right! A fully realistic bingo game: number drawing, cards, and for added excitement, opponents!",
+        "cri-title": "Cryptography",
+        "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages."
     },
 
 
@@ -35,8 +35,11 @@
 
     "Contact": {
         "title": "Contact",
-        "sub": "Get in touch with me!",
-        "cv": "My resumé"
+        "sub": "Get In Touch with me!",
+        "text1": "To see all my projects, click ",
+        "here": "HERE",
+        "text2": ". Contact me to find out more through the links below:",
+        "cv": "My resume"
     },
 
     "Footer": {
