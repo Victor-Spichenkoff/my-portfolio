@@ -15,9 +15,9 @@ import { ILocales } from "../utils/toggleLocale"
 export const Contact = () => {
     const [locale, setLocale] = useState<ILocales>("en")
     const t = useTranslations("Contact")
+    const currentLocale = useLocale() as ILocales
     useEffect(()=> {
         try {
-            const currentLocale = useLocale() as ILocales
             if(currentLocale != "en" && currentLocale !== "br") {
                 return setLocale("en")
             }
