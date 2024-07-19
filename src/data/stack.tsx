@@ -49,6 +49,5 @@ export const getSeveralStacksIcons = (names: AllStack[]) => {
     names.forEach(name => {
         final.push(stackObj[name])
     })
-    console.log("Item final", final)
     return final
 }

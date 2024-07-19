@@ -16,7 +16,7 @@ export const Formation = () => {
                 <FormationItem provider="Uninter" stacks={f.Uninter} percent="20" bigIcon />
                 <FormationItem provider="Google" stacks={f.Google} text="Google Cloud" />
 
-                <FormationItem provider="B7Web" stacks={f.B7Web} />
+                <FormationItem provider="B7Web" stacks={f.B7Web} percent="90"/>
                 <FormationItem provider="Cisco" stacks={f.Cisco} bigIcon />
 
                 <FormationItem provider="Desenvolvedor.io" stacks={f.Desenvolvedor} />

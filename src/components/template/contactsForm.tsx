@@ -32,7 +32,6 @@ export const ContactForms = () => {
 export const ContactFormsColors = () => {
     const theme = useTheme() 
     const currentTheme = theme.theme
-    console.log(currentTheme)
 
     return (
       <div className="flex space-x-8" id='contact-icons'>

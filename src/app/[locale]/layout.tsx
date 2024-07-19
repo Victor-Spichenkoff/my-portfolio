@@ -7,6 +7,7 @@ import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { cn } from "@/lib/utils";
 import { AllProviders } from "@/components/providers/allProviders";
+import { MakeAllApiFirstRequest } from "@/utils/loadAllAPIS";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,7 @@ export default async function RootLayout({
   params: { locale: string };
 }>) {
 
-  const messages = await getMessages()   
+  const messages = await getMessages()
 
   return (
     <html lang={locale} className="">
