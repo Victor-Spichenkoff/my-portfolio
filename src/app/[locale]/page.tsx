@@ -23,9 +23,9 @@ export default function Home() {
       <ScrollMenu />
       {/* <TopBlur /> */}
 
-      {/* <FullSection>
+      <FullSection>
         <Presentation></Presentation>
-      </FullSection> */}
+      </FullSection>
 
 
       <FullSection>
