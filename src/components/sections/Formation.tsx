@@ -8,7 +8,7 @@ export const Formation = () => {
     const t = useTranslations("Formation")
     const title = t("title")
     return (
-        <div className="pt-8 relative h-full [off-mt-2] overflow-hidden" id="formation">
+        <div className="pt-8 relative h-full [off-mt-2] overflow-hidden mt-28" id="formation">
             <div ></div>
             <Header label={title} />
             <div className=" mt-10 flex gap-[50px] flex-wrap justify-center shadow-md bg-black/20 px-4 py-8 rounded-lg ">

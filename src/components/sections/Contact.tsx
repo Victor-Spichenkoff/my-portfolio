@@ -28,7 +28,7 @@ export const Contact = () => {
     }, [])
 
     return (
-        <div className="h-[calc(100vh-50px)] w-full flex flex-col justify-between">
+        <div className="h-[calc(100vh-50px)] w-full flex flex-col justify-between mt-28">
             {/* parte de cima */}
             <div className="flex-1 flex flex-col md:flex-row items-center justify-around md:justify-between">
                 {/* Contatos */}
@@ -38,7 +38,7 @@ export const Contact = () => {
                         <hr className="w-40 h-3 my-8 bg-black border-0 dark:bg-white/85" />
                         <div className="max-w-[300px]">
                             {t("text1")}
-                            <Link href={"https://victor-spichenkoff.github.io/portfolio/myProfile?id=25a0f280-7fb3-4e23-a337-04e50eef96c5"}
+                            <Link href={"https://victor-spichenkoff.github.io/portfolio/viewProfile?id=25a0f280-7fb3-4e23-a337-04e50eef96c5"}
                                 className="text-dark-highlight"
                             >{t("here")}</Link>
                             {t("text2")}

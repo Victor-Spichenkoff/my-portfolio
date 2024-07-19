@@ -12,7 +12,7 @@ const Projects = () => {
     const title = t("title")
 
     return (
-        <div id="projects" className="">
+        <div id="projects" className="mt-28">
             <Header label={title} />
             <div>
                 {projectsData.map((p, i) => {
