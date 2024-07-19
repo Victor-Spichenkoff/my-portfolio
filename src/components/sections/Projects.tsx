@@ -15,7 +15,9 @@ const Projects = () => {
         <div id="projects" className="mt-28">
             <Header label={title} />
             <div>
+
                 {projectsData.map((p, i) => {
+                    
                     return (
                         <ProjectItem
                             title={t(`${p.traslate}-title`)}
@@ -27,7 +29,6 @@ const Projects = () => {
                             key={i}
                         />
                     )
-
                 })}
             </div>
         </div>

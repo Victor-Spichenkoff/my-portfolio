@@ -114,3 +114,14 @@
 #contact-icons a:hover {
   transform: scale(1.1);
 }
+
+#animation-item {
+  display: inherit;
+  width: inherit;
+  height: inherit;
+}
+
+
+@keyframes slide-left {
+  0%{}
+}

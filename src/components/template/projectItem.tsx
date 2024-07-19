@@ -4,6 +4,7 @@ import Image from "next/image"
 import MokedPortFolios from "@/assets/screenshots/port1.png"
 import { Link } from "@/navigation"
 import { AutomaticSlider } from "../utils/automaticSlider"
+import { AnimatedItemProjects } from "../utils/animationsForProjects"
 
 interface IProjectItem {
     title: string,
@@ -15,7 +16,11 @@ interface IProjectItem {
 }
 
 export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios], stacks, isLeftSide=false, url }: IProjectItem) => {
-    return ( <Link href={url ?? "/"} target="_blank">
+    return (
+                    
+        <AnimatedItemProjects>
+        <Link href={url ?? "/"} target="_blank">
+        
         <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 bg-black/20 p-6 rounded-lg shadow-lg
             `}
             id="project-item-containter"
@@ -42,5 +47,6 @@ export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios
             </div>
         </div>
 
-        </Link>)
+        </Link>
+        </AnimatedItemProjects>)
 }
