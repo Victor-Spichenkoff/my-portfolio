@@ -11,6 +11,7 @@ import ExternalLink from "next/link"
 import { Link } from "@/navigation"
 import { useEffect, useState } from "react"
 import { ILocales } from "../utils/toggleLocale"
+import Reveal, { Fade } from "react-awesome-reveal"
 
 export const Contact = () => {
     const [locale, setLocale] = useState<ILocales>("en")
@@ -28,6 +29,8 @@ export const Contact = () => {
     }, [])
 
     return (
+        <Fade direction="right">
+
         <div className="h-[calc(100vh-50px)] w-full flex flex-col justify-between mt-28">
             {/* parte de cima */}
             <div className="flex-1 flex flex-col md:flex-row items-center justify-around md:justify-between">
@@ -65,6 +68,7 @@ export const Contact = () => {
             {/* Parte de baixo */}
             <Footer />
         </div>
+        </Fade>
 
     )
 }

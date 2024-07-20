@@ -48,7 +48,7 @@ export const AnimatedItemProjects = ({ children, right = false }: IAnimatedItem)
             animate={controls}
             variants={variants}
             transition={{ duration: 1, ease: 'easeOut' }}
-            className="overflow-hidden relative"
+            className="overflow-visible relative"
         >
             <div className={`absolute inset-0 bg-gradient-to-r from-white to-transparent transition-opacity duration-1000 opacity-0 ${right ? '' : 'bg-gradient-to-l'}`}></div>
             {children}

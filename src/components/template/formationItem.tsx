@@ -5,6 +5,7 @@ import { AllStack, } from "@/data/stack"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
 import { LevelBar } from "../utils/levelBar"
+import { Bounce, Fade } from "react-awesome-reveal"
 
 
 
@@ -21,14 +22,14 @@ interface IFormationItem {
 
 
 
-export const FormationItem = ({ provider, stacks, text, percent="100", bigIcon}: IFormationItem) => {
+export const FormationItem = ({ provider, stacks, text, percent = "100", bigIcon }: IFormationItem) => {
     const t = useTranslations("Formation")
     const Tbach = t("bach")
     const Tskills = t("sk")
 
 
     const stacksItem = stacks.map((stack, i) => {
-        if(bigIcon) {
+        if (bigIcon) {
             return <Image src={stack} alt={provider} width={30} height={30} key={i} />
         }
 
@@ -38,33 +39,38 @@ export const FormationItem = ({ provider, stacks, text, percent="100", bigIcon}:
     })
 
     return (
-        <div className="flex w-[100%]  lg:w-[47%] h-[113px] bg-gray-800 rounded-md relative overflow-hidden text-dark-text shadow-md">
-            <div className="w-[100px] bg-white flex items-center">
-                { provider !== "Desenvolvedor.io" ? (
-                    <Image src={getProviderImageByName(provider)} width={100} height={100}
-                    alt={"logo " + provider}/>
-                ): (
-                    <div className="font-serif font-extrabold text-[100px] bg-gradient-to-b from-blue-950 to-blue-700 text-white w-full flex justify-center items-center">d</div>
+        <Bounce className="w-[100%]  lg:w-[47%]" cascade damping={12} triggerOnce>
+        <div className="flex w-[100%]  h-[113px] bg-gray-800 rounded-md relative overflow-hidden text-dark-text shadow-md">
+            {/* <div className="flex w-[100%]  lg:w-[47%]  h-[113px] bg-gray-800 rounded-md relative overflow-hidden text-dark-text shadow-md"> */}
 
-                ) }
-            </div>
-            <div className="flex-1 p-2">
-                <h2 className="text-xl">{ text ?? provider}</h2>
-                <div className="w-full">
-                    <LevelBar percent={percent}/>
-                </div>
-                {/* Habilidades */}
-                <div className="flex items-center gap-1">
-                    <span className="self-start">{ Tskills }:</span> <span className="flex flex-wrap gap-2">
-                        { stacksItem }
-                    </span>
-                </div>
-            </div>
 
-            { provider=="Uninter" && (
-                <div className={`absolute text-xs bg-yellow-400 text-black border-2 border-yellow-600
-                ${Tbach=="Bachelor" ? " top-[8px]" : " top-4"} 
-                ${Tbach=="Bachelor" ? "-right-[12px]" : "-right-[17px]"}
+
+                <div className="w-[100px] bg-white flex items-center">
+                    {provider !== "Desenvolvedor.io" ? (
+                        <Image src={getProviderImageByName(provider)} width={100} height={100}
+                            alt={"logo " + provider} />
+                    ) : (
+                        <div className="font-serif font-extrabold text-[100px] bg-gradient-to-b from-blue-950 to-blue-700 text-white w-full flex justify-center items-center">d</div>
+
+                    )}
+                </div>
+                <div className="flex-1 p-2">
+                    <h2 className="text-xl">{text ?? provider}</h2>
+                    <div className="w-full">
+                        <LevelBar percent={percent} />
+                    </div>
+                    {/* Habilidades */}
+                    <div className="flex items-center gap-1">
+                        <span className="self-start">{Tskills}:</span> <span className="flex flex-wrap gap-2">
+                            {stacksItem}
+                        </span>
+                    </div>
+                </div>
+
+                {provider == "Uninter" && (
+                    <div className={`absolute text-xs bg-yellow-400 text-black border-2 border-yellow-600
+                ${Tbach == "Bachelor" ? " top-[8px]" : " top-4"} 
+                ${Tbach == "Bachelor" ? "-right-[12px]" : "-right-[17px]"}
                 rotate-[40deg] 
                 px-2 py-1 
                 shadow-lg 
@@ -74,9 +80,10 @@ export const FormationItem = ({ provider, stacks, text, percent="100", bigIcon}:
                 z-10
                 opacity-90
                 `}>
-                    {Tbach}
-                </div>
-            ) }
-        </div>
+                        {Tbach}
+                    </div>
+                )}
+            </div>
+        </Bounce>
     )
 }
