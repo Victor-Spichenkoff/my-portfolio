@@ -22,7 +22,9 @@
         "bing-title": "BINGO!",
         "bing-desc": "Yes, you read that right! A fully realistic bingo game: number drawing, cards, and for added excitement, opponents!",
         "cri-title": "Cryptography",
-        "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages."
+        "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages.",
+        "ter-title": "Express Template with Prisma and TypeScript",
+        "ter-desc": "NPM package that allows you to create an Express project with just one line. The project will be ready to use and offers full configuration options."
     },
 
 

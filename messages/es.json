@@ -22,7 +22,10 @@
         "bing-title": "¡BINGO!",
         "bing-desc": "Sí, leíste bien! Un juego de bingo totalmente realista: sorteo de números, cartones y, para mayor emoción, ¡oponentes!",
         "cri-title": "Cifrado",
-        "cri-desc": "Método propio de cifrado. Permite codificar mensajes y descifrarlos."
+        "cri-desc": "Método propio de cifrado. Permite codificar mensajes y descifrarlos.",
+        "ter-title": "Plantilla Express con Prisma y TypeScript",
+        "ter-desc": "Paquete NPM que permite crear un proyecto Express con solo una línea. El proyecto estará listo para usar y ofrece opciones de configuración completas."
+        
     },
 
     "Theme": {

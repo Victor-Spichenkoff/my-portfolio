@@ -23,7 +23,7 @@ export const AutomaticSlider = ({ images }: IAutomaticSlider) => {
     const imagesComponent = images.map((image, i)=> {
         return (
             <div className='px-2' key={i}>
-                <Image src={image} alt={"Screenshots"} className='w-full rounded-lg'/>
+                <Image src={image} alt={"Screenshots"} className='w-full h-full max-w-[1024px] aspect-[4/3] rounded-lg' />
             </div>
         )
     })

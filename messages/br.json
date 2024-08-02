@@ -22,8 +22,9 @@
         "bing-title": "BINGO!",
         "bing-desc": "Sim, você leu certo! Um jogo de bingo totalmente realista: sorteio de números, cartelas e, para ter mais emoção, adversários!",
         "cri-title": "Criptografia",
-        "cri-desc": "Método próprio de criptografia. Permite codificar mensagens e descriptografá-las."
-           
+        "cri-desc": "Método próprio de criptografia. Permite codificar mensagens e descriptografá-las.",
+        "ter-title": "Template Express com Prisma e TypeScript",
+        "ter-desc": "Pacote NPM que permite criar um projeto Express com apenas 1 linha. O projeto estará pronto para uso e oferece opções de configuração completas."
     },
 
 

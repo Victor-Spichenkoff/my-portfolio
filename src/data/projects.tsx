@@ -22,6 +22,11 @@ import C1 from "@/assets/screenshots/c1.png"
 import C2 from "@/assets/screenshots/c2.png"
 
 
+import T1 from "@/assets/screenshots/ter1.png"
+import T2 from "@/assets/screenshots/ter2.png"
+import T3 from "@/assets/screenshots/ter3.png"
+
+
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
 
 export const projectsWithStack = {
@@ -29,7 +34,8 @@ export const projectsWithStack = {
     Articles: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "Node","Security", "MONGO", "GitHub"]) ,
     Pagination: getSeveralStacksIcons(["HTML", "CSS", "TS", "Node", "NEXT"]),
     Bingo: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "GitHub"]) ,
-    Cripto: getSeveralStacksIcons(["HTML", "CSS", "JS", "GitHub"])
+    Cripto: getSeveralStacksIcons(["HTML", "CSS", "JS", "GitHub"]),
+    Ter: getSeveralStacksIcons(["CS", "DOTNET", "Security",  "Node"])
 }
 
 interface IProjectForItem {
@@ -51,10 +57,10 @@ export const projectsData: IProjectForItem[] = [
         url: "https://victor-spichenkoff.github.io/portfolio/auth"
     },
     { 
-        traslate: "arc", 
-        images: [ A1, A2, A3 ],
-        stacks: projectsWithStack.Articles,
-        url: "https://victor-spichenkoff.github.io/vss-artigos-frontend/#/auth"
+        traslate: "ter", 
+        images: [ T1, T3 ],
+        stacks: projectsWithStack.Ter,
+        url: "https://www.npmjs.com/package/vss-express"
     },
     { 
         traslate: "pag", 
@@ -63,11 +69,17 @@ export const projectsData: IProjectForItem[] = [
         url: "https://github.com/Victor-Spichenkoff/pagination-api"
     },
     { 
-        traslate: "bing", 
-        images: [ B1,B2, B3 ],
-        stacks: projectsWithStack.Bingo,
-        url: "https://victor-spichenkoff.github.io/bingo-build/"
+        traslate: "arc", 
+        images: [ A1, A2, A3 ],
+        stacks: projectsWithStack.Articles,
+        url: "https://victor-spichenkoff.github.io/vss-artigos-frontend/#/auth"
     },
+    // { 
+    //     traslate: "bing", 
+    //     images: [ B1,B2, B3 ],
+    //     stacks: projectsWithStack.Bingo,
+    //     url: "https://victor-spichenkoff.github.io/bingo-build/"
+    // },
     { 
         traslate: "cri", 
         images: [ C1, C2 ],
