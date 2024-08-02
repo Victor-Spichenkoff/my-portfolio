@@ -23,8 +23,8 @@ export const Presentation = () => {
                     <ToggleLocale />
                 </div>
 
-                <div className="max-w-[1200px] md:ml-20 relative mt-32">
-                    <div className="flex justify-between max-w-[900px] mx-auto">
+                <div className="w-full max-w-[1200px] md:ml-20 relative mt-32">
+                    <div className="flex justify-between  mx-auto">
 
                         <Header label={title} />
 
@@ -41,7 +41,7 @@ export const Presentation = () => {
                         <p className="pr-10 md:max-w-[500px] md:text-justify">
                             {text}
                         </p>
-                        <div className="mr-8 -mt-36 hidden md:block xl:ml-[110px]">
+                        <div className="min-w-[200px] self-end mr-8 md:-mt-36 hidden md:block xl:ml-[110px] float-right">
                             <Image src={Moked} alt="Perfil"
                                 className="w-64" />
                         </div>

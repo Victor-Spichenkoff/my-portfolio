@@ -125,3 +125,10 @@
 @keyframes slide-left {
   0%{}
 }
+
+
+@media ((min-height: 590px) and (min-width: 868px)) {
+  #scroll-tecnologies {
+    display: block;
+  }
+}
