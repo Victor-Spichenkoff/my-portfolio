@@ -43,6 +43,7 @@ export const Contact = () => {
                             {t("text1")}
                             <Link href={"https://victor-spichenkoff.github.io/portfolio/viewProfile?id=25a0f280-7fb3-4e23-a337-04e50eef96c5"}
                                 className="text-dark-highlight"
+                                target="_blank"
                             >{t("here")}</Link>
                             {t("text2")}
                         </div>
@@ -53,7 +54,7 @@ export const Contact = () => {
 
                 {/* Botão só para o mobile */}
                 <Button className="bg-transparent border border-green-600 hover:bg-green-600 transition-all duration-300 md:hidden" variant={"my-ghost"}>
-                    <ExternalLink href={`/cv_curto_${locale}.pdf`} target="_blank">{t("cv")}</ExternalLink>
+                    <ExternalLink href={`/cv_curto_${locale}.pdf`} target="_blank" >{t("cv")}</ExternalLink>
                 </Button>
 
                 {/* LOGO + CV */}
