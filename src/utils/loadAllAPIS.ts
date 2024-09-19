@@ -1,13 +1,15 @@
 import axios from "axios"
+import { serverMaintenanceUrl } from "../../global"
+
 
 const isProd = process.env.NODE_ENV == "production"
-const serverMaintenanceUrl = isProd ? 'https://server-maintenance-ssu7.onrender.com' : 'http://localhost:2009'
+
 
 
 async function getIp() {
     try {
         const res = await axios.get('https://ipapi.co/json/')
-        return `${res.data.ip} -> ${res.data.city}`
+        return `[STATIC] ${res.data.ip} -> ${res.data.city}, ${res.data.country_name}`
     } catch (e) {
         console.log('Erro ao pegar o ip:')
         console.log(e)
