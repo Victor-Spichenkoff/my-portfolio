@@ -26,6 +26,11 @@ import T1 from "@/assets/screenshots/ter1.png"
 import T2 from "@/assets/screenshots/ter2.png"
 import T3 from "@/assets/screenshots/ter3.png"
 
+import SM1 from "@/assets/screenshots/sm1.png"
+import SM2 from "@/assets/screenshots/sm2.png"
+import SM3 from "@/assets/screenshots/sm3.png"
+
+
 
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
 
@@ -35,7 +40,8 @@ export const projectsWithStack = {
     Pagination: getSeveralStacksIcons(["HTML", "CSS", "TS", "Node", "NEXT"]),
     Bingo: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "GitHub"]) ,
     Cripto: getSeveralStacksIcons(["HTML", "CSS", "JS", "GitHub"]),
-    Ter: getSeveralStacksIcons(["CS", "DOTNET", "Security",  "Node"])
+    Ter: getSeveralStacksIcons(["CS", "DOTNET", "Security",  "Node"]),
+    Server: getSeveralStacksIcons(["NEXT", "TS", "Tail","Security", "GitHub"])
 }
 
 interface IProjectForItem {
@@ -49,7 +55,7 @@ interface IProjectForItem {
 
 export const projectsData: IProjectForItem[] = [
     { 
-        traslate: "portfolios",
+        traslate: "portfolios", 
         // title: t("portfolios-title"), 
         // description: "Minha descrição sobre ele", 
         images: [ P1, P2, P3 ],
@@ -61,6 +67,12 @@ export const projectsData: IProjectForItem[] = [
         images: [ T1, T3 ],
         stacks: projectsWithStack.Ter,
         url: "https://www.npmjs.com/package/vss-express"
+    },
+    { 
+        traslate: "sm", 
+        images: [ SM1, SM2, SM3],
+        stacks: projectsWithStack.Server,
+        url: "https://server-maintenance-page.vercel.app"
     },
     { 
         traslate: "pag", 
@@ -80,10 +92,11 @@ export const projectsData: IProjectForItem[] = [
     //     stacks: projectsWithStack.Bingo,
     //     url: "https://victor-spichenkoff.github.io/bingo-build/"
     // },
-    { 
-        traslate: "cri", 
-        images: [ C1, C2 ],
-        stacks: projectsWithStack.Cripto,
-        url: "https://victor-spichenkoff.github.io/criptografia/"
-    },
+    // { 
+    //     traslate: "cri", 
+    //     images: [ C1, C2 ],
+    //     stacks: projectsWithStack.Cripto,
+    //     url: "https://victor-spichenkoff.github.io/criptografia/"
+    // },
+
 ]

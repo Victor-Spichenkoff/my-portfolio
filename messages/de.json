@@ -1,0 +1,50 @@
+{
+    "Presentation": {
+        "title": "Hallo! Ich bin Victor! 👋",
+        "subtitle": "Fullstack-Entwickler",
+        "text": "Seit zwei Jahren vertiefe ich mein Wissen im Bereich der Entwicklung. Jeden Tag bin ich motivierter, neue Wege zur Weiterentwicklung zu finden. Mit einem soliden Fundament suche ich immer nach neuen Möglichkeiten, um bei der Erstellung innovativer Projekte und beeindruckender Erlebnisse mitzuwirken."
+    },
+
+    "Formation": {
+        "title": "Ausbildung",
+        "bach": "Bachelor",
+        "sk": "Fähigkeiten"
+    },
+
+    "Projects": {
+        "title": "Hauptprojekte",
+        "portfolios-title": "Portfolios teilen",
+        "portfolios-desc": "Erstellen Sie Ihr Portfolio oder sehen Sie sich die Portfolios anderer Programmierer an. Login-System, Likes, unendliches Scrollen und vieles mehr!",
+        "arc-title": "Artikel-Website",
+        "arc-desc": "Erstellen, bearbeiten und lesen Sie Artikel. Login-System, Kategorien, Artikelsuche und mehr!",
+        "pag-title": "Paginierungs-Platzhalter",
+        "pag-desc": "API zur Bereitstellung von Paginierungs-Elementen. Besser als alle anderen: Bearbeiten Sie Felder, Seiten, Typen und Rückgaben. Erleichtert das Testen der Paginierung in jedem System.",
+        "bing-title": "BINGO!",
+        "bing-desc": "Ja, Sie haben richtig gelesen! Ein vollständig realistisches Bingo-Spiel: Zahlenauslosung, Karten und für noch mehr Spannung, Gegner!",
+        "cri-title": "Kryptographie",
+        "cri-desc": "Eigenes Verschlüsselungsverfahren. Ermöglicht das Codieren und Decodieren von Nachrichten.",
+        "ter-title": "Express-Vorlage mit Prisma und TypeScript",
+        "ter-desc": "NPM-Paket, das es ermöglicht, ein Express-Projekt mit nur einer Zeile zu erstellen. Das Projekt ist einsatzbereit und bietet vollständige Konfigurationsoptionen.",
+        "sm-title": "Serverüberwachung",
+        "sm-desc": "API zur Vermeidung von Spin-Down und zur Überwachung der Ressourcennutzung meiner Projekte. In Kombination mit einer Website zur Unterstützung der Kontrolle und Überwachung."
+    },
+
+    "Theme": {
+        "dark": "Dunkel",
+        "light": "Hell",
+        "sys": "System"
+    },
+
+    "Contact": {
+        "title": "Kontakt",
+        "sub": "Nehmen Sie Kontakt mit mir auf!",
+        "text1": "Um alle meine Projekte zu sehen, klicken Sie ",
+        "here": "HIER",
+        "text2": ". Kontaktieren Sie mich, um mehr über die folgenden Links zu erfahren:",
+        "cv": "Mein Lebenslauf"
+    },
+
+    "Footer": {
+        "message": "Mit ❤️ erstellt von Victor Spichenkoff"
+    }
+}

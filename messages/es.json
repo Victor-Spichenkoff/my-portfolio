@@ -24,7 +24,9 @@
         "cri-title": "Cifrado",
         "cri-desc": "Método propio de cifrado. Permite codificar mensajes y descifrarlos.",
         "ter-title": "Plantilla Express con Prisma y TypeScript",
-        "ter-desc": "Paquete NPM que permite crear un proyecto Express con solo una línea. El proyecto estará listo para usar y ofrece opciones de configuración completas."
+        "ter-desc": "Paquete NPM que permite crear un proyecto Express con solo una línea. El proyecto estará listo para usar y ofrece opciones de configuración completas.",
+        "sm-title": "Server Monitoring",
+        "sm-desc": "API para evitar la ralentización y monitorear el uso de recursos de mis proyectos. En conjunto con un sitio web, para ayudar con el control y seguimiento."
         
     },
 

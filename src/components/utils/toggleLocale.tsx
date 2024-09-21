@@ -24,10 +24,10 @@ export const ToggleLocale = () => {
 
 
 
-  
+
   const changeLocale = (locale: ILocales) => {
     setNewLocale(locale)
-    router.replace(pathname, {locale})
+    router.replace(pathname, { locale })
   }
 
   const handleBRClick = () => {
@@ -40,11 +40,6 @@ export const ToggleLocale = () => {
     changeLocale("en")
   }
 
-  const handleESClick = () => {
-    setNewLocale("es")
-    changeLocale("es")
-  }
-
   const hanleOthers = (locale: ILocales) => {
     setNewLocale(locale)
     changeLocale(locale)
@@ -55,26 +50,29 @@ export const ToggleLocale = () => {
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="outline" size="icon">
-          <Globe />
+            <Globe />
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={handleENClick}>
-          English
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={handleBRClick}>
-          Português
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={()=>hanleOthers("es")}>
-          Español
-        </DropdownMenuItem>
-        {/* <DropdownMenuItem onClick={()=>hanleOthers("de")}>
+          <DropdownMenuItem onClick={handleENClick}>
+            English
+          </DropdownMenuItem>
+          <DropdownMenuItem onClick={handleBRClick}>
+            Português
+          </DropdownMenuItem>
+          <DropdownMenuItem onClick={() => hanleOthers("de")}>
+            Deutsch
+          </DropdownMenuItem>
+          <DropdownMenuItem onClick={() => hanleOthers("es")}>
+            Español
+          </DropdownMenuItem>
+          {/* <DropdownMenuItem onClick={()=>hanleOthers("de")}>
           Deutsch
         </DropdownMenuItem>
         <DropdownMenuItem onClick={()=>hanleOthers("it")}>
           Italiano
         </DropdownMenuItem> */}
-      </DropdownMenuContent>
+        </DropdownMenuContent>
       </DropdownMenu>
     </div>
   )

@@ -24,9 +24,11 @@
         "cri-title": "Criptografia",
         "cri-desc": "Método próprio de criptografia. Permite codificar mensagens e descriptografá-las.",
         "ter-title": "Template Express com Prisma e TypeScript",
-        "ter-desc": "Pacote NPM que permite criar um projeto Express com apenas 1 linha. O projeto estará pronto para uso e oferece opções de configuração completas."
+        "ter-desc": "Pacote NPM que permite criar um projeto Express com apenas 1 linha. O projeto estará pronto para uso e oferece opções de configuração completas.",
+        "sm-title": "Server Monitoring",
+        "sm-desc": "API para evitar spin down e monitorar o uso de recursos por meus projetos. Em conjunto com um site, para ajudar no controle e monitoramento"
     },
-
+    
 
     "Theme": {
         "dark": "Escuro",

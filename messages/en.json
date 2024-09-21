@@ -24,7 +24,9 @@
         "cri-title": "Cryptography",
         "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages.",
         "ter-title": "Express Template with Prisma and TypeScript",
-        "ter-desc": "NPM package that allows you to create an Express project with just one line. The project will be ready to use and offers full configuration options."
+        "ter-desc": "NPM package that allows you to create an Express project with just one line. The project will be ready to use and offers full configuration options.",
+        "sm-title": "Server Monitoring",
+        "sm-desc": "API to avoid spin down and monitor resource usage by my projects. In conjunction with a website, to help with control and monitoring"
     },
 
 
