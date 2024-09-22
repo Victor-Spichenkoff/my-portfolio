@@ -23,7 +23,7 @@ async function getIp() {
 
 
 export async function MakeAllApiFirstRequest() {
-    // if (!isProd) return
+    if (!isProd) return
     const ipInfo = await getIp()
     try {
 
