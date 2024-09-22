@@ -21,7 +21,12 @@ export async function MakeAllApiFirstRequest() {
     if(!isProd) return
     const ip = await getIp()
     try {
-        if (ip) axios(`${serverMaintenanceUrl}/sendIp/${ip}`)
+        
+        if(ip == "179.34.95.149")
+            axios(`${serverMaintenanceUrl}/sendIp/[MEU]`)
+        else if (ip) 
+            axios(`${serverMaintenanceUrl}/sendIp/${ip}`)
+
         //deixar esse no final, o mais lento
         await axios(`${serverMaintenanceUrl}/forceAllOnce`)
     } catch (E) {
