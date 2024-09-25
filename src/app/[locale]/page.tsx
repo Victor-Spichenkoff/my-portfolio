@@ -8,13 +8,17 @@ import { Formation } from "@/components/sections/Formation";
 import Projects from "@/components/sections/Projects";
 import { TopBlur } from "@/components/utils/topBlur";
 import { Contact } from "@/components/sections/Contact";
-import { useCallback, useEffect } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { MakeAllApiFirstRequest, teste } from "@/utils/loadAllAPIS";
+import { useSearchParams } from 'next/navigation';
 
 
 export default function Home() {
+  const searchParams = useSearchParams();
+
   useEffect(() => {
-    MakeAllApiFirstRequest();
+    const notForce = searchParams.get('notForce');
+    MakeAllApiFirstRequest(notForce)
   }, [])
 
   return (

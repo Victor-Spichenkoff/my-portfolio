@@ -6,12 +6,12 @@ const isProd = process.env.NODE_ENV == "production"
 
 
 
-async function getIp() {
+async function getIp(notForce: boolean) {
     try {
         const res = await axios.get('https://ipapi.co/json/')
         // return `[STATIC] ${res.data.ip} -> ${res.data.city}, ${res.data.country_name}`
         return {
-            ip: res.data.ip,
+            ip: notForce ? "MEU" : res.data.ip,
             city: res.data.city,
             country: res.data.country_name
           }
@@ -22,18 +22,24 @@ async function getIp() {
 }
 
 
-export async function MakeAllApiFirstRequest() {
+export async function MakeAllApiFirstRequest(notForce: string | null) {
     if (!isProd) return
-    const ipInfo = await getIp()
+
+    const ipInfo = await getIp(notForce == 'true')
     try {
 
-        if (ipInfo?.ip == "179.34.95.149")
+        if (ipInfo?.ip == "MEU")
             return axios(`${serverMaintenanceUrl}/sendIp/[STATIC] [MEU]`)
 
         const ipInfoString = `[STATIC] ${ipInfo?.ip} -> ${ipInfo?.city}, ${ipInfo?.country}`
 
 
         axios(`${serverMaintenanceUrl}/sendIp/${ipInfoString}`)
+
+
+        if(notForce == "true")
+            return
+
 
         //deixar esse no final, o mais lento
         await axios(`${serverMaintenanceUrl}/forceAllOnce`)
