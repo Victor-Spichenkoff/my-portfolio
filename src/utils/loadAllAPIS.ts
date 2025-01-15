@@ -31,11 +31,10 @@ export async function MakeAllApiFirstRequest(notForce: string | null) {
         if (ipInfo?.ip == "MEU")
             return axios(`${serverMaintenanceUrl}/sendIp/[STATIC] [MEU]`)
 
+
         const ipInfoString = `[STATIC] ${ipInfo?.ip} -> ${ipInfo?.city}, ${ipInfo?.country}`
 
-
         axios(`${serverMaintenanceUrl}/sendIp/${ipInfoString}`)
-
 
         if(notForce == "true")
             return
