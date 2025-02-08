@@ -2,7 +2,7 @@
     "Presentation": {
         "title": "Hi! I am Victor! 👋",
         "subtitle": "Fullstack developer",
-        "text": "I have been deepening my knowledge in the field of development for the past 2 years. Every day, I am more motivated to find new ways to evolve. With a solid foundation, I am always looking for new opportunities to collaborate in creating innovative projects and impactful experiences."
+        "text": "I have been deepening my knowledge in the field of development for the past 3 years. Every day, I am more motivated to find new ways to evolve. With a solid foundation, I am always looking for new opportunities to collaborate in creating innovative projects and impactful experiences."
     },
 
     "Formation": {
@@ -26,7 +26,10 @@
         "ter-title": "Express Template with Prisma and TypeScript",
         "ter-desc": "NPM package that allows you to create an Express project with just one line. The project will be ready to use and offers full configuration options.",
         "sm-title": "Server Monitoring",
-        "sm-desc": "API to avoid spin down and monitor resource usage by my projects. In conjunction with a website, to help with control and monitoring"
+        "sm-desc": "API to avoid spin down and monitor resource usage by my projects. In conjunction with a website, to help with control and monitoring",
+        "tic-title": "Online Tic Tac Toe",
+        "tic-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone"
+        
     },
 
 

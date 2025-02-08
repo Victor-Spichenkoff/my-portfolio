@@ -30,6 +30,10 @@ import SM1 from "@/assets/screenshots/sm1.png"
 import SM2 from "@/assets/screenshots/sm2.png"
 import SM3 from "@/assets/screenshots/sm3.png"
 
+import TIC1 from "@/assets/screenshots/tic1.png"
+import TIC2 from "@/assets/screenshots/tic2.png"
+import TIC3 from "@/assets/screenshots/tic3.png"
+
 
 
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
@@ -79,6 +83,12 @@ export const projectsData: IProjectForItem[] = [
         images: [ PAG1, PAG3, PAG2 ],
         stacks: projectsWithStack.Pagination,
         url: "https://github.com/Victor-Spichenkoff/pagination-api"
+    },
+    { 
+        traslate: "tic", 
+        images: [ TIC1, TIC2, TIC3 ],
+        stacks: projectsWithStack.Articles,
+        url: "https://tic-tac-toe-online-six.vercel.app"
     },
     { 
         traslate: "arc", 

@@ -2,7 +2,7 @@
     "Presentation": {
         "title": "Olá! Eu sou Victor! 👋",
         "subtitle": "Desenvolvedor fullstack",
-        "text": "Estou aprofundando meus conhecimentos na área do desenvolvimento há 2 anos. A cada dia, sinto-me mais motivado a buscar novas maneiras de evoluir. Com um conhecimento sólido, estou sempre em busca de novas oportunidades para colaborar na criação de projetos inovadores e impactantes."
+        "text": "Estou aprofundando meus conhecimentos na área do desenvolvimento há 3 anos. A cada dia, sinto-me mais motivado a buscar novas maneiras de evoluir. Com um conhecimento sólido, estou sempre em busca de novas oportunidades para colaborar na criação de projetos inovadores e impactantes."
     },
 
     "Formation": {
@@ -26,7 +26,9 @@
         "ter-title": "Template Express com Prisma e TypeScript",
         "ter-desc": "Pacote NPM que permite criar um projeto Express com apenas 1 linha. O projeto estará pronto para uso e oferece opções de configuração completas.",
         "sm-title": "Server Monitoring",
-        "sm-desc": "API para evitar spin down e monitorar o uso de recursos por meus projetos. Em conjunto com um site, para ajudar no controle e monitoramento"
+        "sm-desc": "API para evitar spin down e monitorar o uso de recursos por meus projetos. Em conjunto com um site, para ajudar no controle e monitoramento",
+        "tic-title": "Jogo Velha Online",
+        "tic-desc": "Jogo com WebSocket, proteções, reconexão, Mmodos de jogo Local e com Bot. Possibilidade de instalar no smartphone"
     },
     
 

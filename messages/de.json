@@ -26,7 +26,9 @@
         "ter-title": "Express-Vorlage mit Prisma und TypeScript",
         "ter-desc": "NPM-Paket, das es ermöglicht, ein Express-Projekt mit nur einer Zeile zu erstellen. Das Projekt ist einsatzbereit und bietet vollständige Konfigurationsoptionen.",
         "sm-title": "Serverüberwachung",
-        "sm-desc": "API zur Vermeidung von Spin-Down und zur Überwachung der Ressourcennutzung meiner Projekte. In Kombination mit einer Website zur Unterstützung der Kontrolle und Überwachung."
+        "sm-desc": "API zur Vermeidung von Spin-Down und zur Überwachung der Ressourcennutzung meiner Projekte. In Kombination mit einer Website zur Unterstützung der Kontrolle und Überwachung.",
+        "tic-title": "Online Tic Tac Toe",
+        "tic-desc": "Spiel mit WebSocket, Schutz, Wiederverbindung, lokalem und Bot-Spielmodus. Möglichkeit zur Installation auf dem Smartphone."
     },
 
     "Theme": {

@@ -2,7 +2,7 @@
     "Presentation": {
         "title": "¡Hola! Soy Victor! 👋",
         "subtitle": "Desarrollador fullstack",
-        "text": "He estado profundizando mis conocimientos en el área del desarrollo durante 2 años. Cada día me siento más motivado a buscar nuevas maneras de evolucionar. Con un conocimiento sólido, siempre estoy en busca de nuevas oportunidades para colaborar en la creación de proyectos innovadores y experiencias impactantes."
+        "text": "He estado profundizando mis conocimientos en el área del desarrollo durante 3 años. Cada día me siento más motivado a buscar nuevas maneras de evolucionar. Con un conocimiento sólido, siempre estoy en busca de nuevas oportunidades para colaborar en la creación de proyectos innovadores y experiencias impactantes."
     },
 
     "Formation": {
@@ -26,7 +26,9 @@
         "ter-title": "Plantilla Express con Prisma y TypeScript",
         "ter-desc": "Paquete NPM que permite crear un proyecto Express con solo una línea. El proyecto estará listo para usar y ofrece opciones de configuración completas.",
         "sm-title": "Server Monitoring",
-        "sm-desc": "API para evitar la ralentización y monitorear el uso de recursos de mis proyectos. En conjunto con un sitio web, para ayudar con el control y seguimiento."
+        "sm-desc": "API para evitar la ralentización y monitorear el uso de recursos de mis proyectos. En conjunto con un sitio web, para ayudar con el control y seguimiento.",
+        "tic-title": "Tic Tac Toe en línea",
+        "tic-desc": "Juego con WebSocket, protecciones, reconexión, modos de juego Local y Bot. Posibilidad de instalar en smartphone"
         
     },
 
