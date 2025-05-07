@@ -1,4 +1,4 @@
-export const allLocales = ["br", "en", "es", "it", "de"]
+export const allLocales = ["pt", "en", "es", "it", "de"]
 
 const isProd = process.env.NODE_ENV == "production"
 //render

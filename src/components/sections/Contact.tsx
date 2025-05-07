@@ -19,7 +19,7 @@ export const Contact = () => {
     const currentLocale = useLocale() as ILocales
     useEffect(()=> {
         try {
-            if(currentLocale != "en" && currentLocale !== "br") {
+            if(currentLocale != "en" && currentLocale !== "pt") {
                 return setLocale("en")
             }
             setLocale(currentLocale)

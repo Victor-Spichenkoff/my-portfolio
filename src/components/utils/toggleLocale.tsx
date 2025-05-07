@@ -14,7 +14,7 @@ import Link from "next/link"
 import { useRouter, usePathname } from "@/navigation"
 
 
-export type ILocales = "en" | "br" | "es" | "it" | "de"
+export type ILocales = "en" | "br" | "es" | "it" | "de" | "pt"
 
 
 export const ToggleLocale = () => {
@@ -31,8 +31,8 @@ export const ToggleLocale = () => {
   }
 
   const handleBRClick = () => {
-    setNewLocale("br")
-    changeLocale("br")
+    setNewLocale("pt")
+    changeLocale("pt")
   }
 
   const handleENClick = () => {
