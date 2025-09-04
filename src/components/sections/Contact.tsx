@@ -41,9 +41,8 @@ export const Contact = () => {
                         <hr className="w-40 h-3 my-8 bg-black border-0 dark:bg-white/85" />
                         <div className="max-w-[300px]">
                             {t("text1")}
-                            <Link href={"https://victor-spichenkoff.github.io/portfolio/viewProfile?id=25a0f280-7fb3-4e23-a337-04e50eef96c5"}
+                            <Link href={"/hub"}
                                 className="text-dark-highlight"
-                                target="_blank"
                             >{t("here")}</Link>
                             {t("text2")}
                         </div>

@@ -4,13 +4,11 @@
         "subtitle": "Fullstack developer",
         "text": "I have been deepening my knowledge in the field of development for the past 3 years. Every day, I am more motivated to find new ways to evolve. With a solid foundation, I am always looking for new opportunities to collaborate in creating innovative projects and impactful experiences."
     },
-
     "Formation": {
         "title": "Formation",
         "bach": "Bachelor",
         "sk": "Skills"
     },
-
     "Projects": {
         "title": "Main Projects",
         "portfolios-title": "Share Portfolios",
@@ -19,27 +17,28 @@
         "arc-desc": "Create, edit, and read articles. Login system, categories, article search, and more!",
         "pag-title": "Pagination Placeholder",
         "pag-desc": "API to provide pagination items. Better than any other: edit fields, pages, types, and returns. Makes testing pagination in any system easier.",
-        "bing-title": "BINGO!",
-        "bing-desc": "Yes, you read that right! A fully realistic bingo game: number drawing, cards, and for added excitement, opponents!",
-        "cri-title": "Cryptography",
-        "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages.",
         "ter-title": "Express Template with Prisma and TypeScript",
         "ter-desc": "NPM package that allows you to create an Express project with just one line. The project will be ready to use and offers full configuration options.",
         "sm-title": "Server Monitoring",
         "sm-desc": "API to avoid spin down and monitor resource usage by my projects. In conjunction with a website, to help with control and monitoring",
         "tic-title": "Online Tic Tac Toe",
         "tic-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone"
-        
     },
-
-
+    "Hub": {
+        "bing-title": "BINGO!",
+        "bing-desc": "Yes, you read that right! A fully realistic bingo game: number drawing, cards, and for added excitement, opponents!",
+        "cri-title": "Cryptography",
+        "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages.",
+        "a-title": "Online Tic Tac Toe",
+        "a-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
+        "-title": "Online Tic Tac Toe",
+        "-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone"
+    },
     "Theme": {
         "dark": "Dark",
         "light": "Light",
         "sys": "System"
     },
-
-
     "Contact": {
         "title": "Contact",
         "sub": "Get In Touch with me!",
@@ -48,7 +47,6 @@
         "text2": ". Contact me to find out more through the links below:",
         "cv": "My resume"
     },
-
     "Footer": {
         "message": "Made with ❤️ by Victor Spichenkoff"
     }

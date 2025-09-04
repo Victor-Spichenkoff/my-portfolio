@@ -4,13 +4,11 @@
         "subtitle": "Desenvolvedor fullstack",
         "text": "Estou aprofundando meus conhecimentos na área do desenvolvimento há 3 anos. A cada dia, sinto-me mais motivado a buscar novas maneiras de evoluir. Com um conhecimento sólido, estou sempre em busca de novas oportunidades para colaborar na criação de projetos inovadores e impactantes."
     },
-
     "Formation": {
         "title": "Formações",
         "bach": "Bacharelado",
         "sk": "Habilidades"
     },
-
     "Projects": {
         "title": "Principais Projetos",
         "portfolios-title": "Compartilhe Portfólios",
@@ -19,10 +17,6 @@
         "arc-desc": "Crie, edite e leia artigos. Sistema de login, categorias, busca de artigos e mais!",
         "pag-title": "Placeholder de Paginação",
         "pag-desc": "API para fornecer itens de paginação. Melhor que qualquer outra: edite os campos, páginas, tipos e retornos. Facilita o teste de paginação em qualquer sistema.",
-        "bing-title": "BINGO!",
-        "bing-desc": "Sim, você leu certo! Um jogo de bingo totalmente realista: sorteio de números, cartelas e, para ter mais emoção, adversários!",
-        "cri-title": "Criptografia",
-        "cri-desc": "Método próprio de criptografia. Permite codificar mensagens e descriptografá-las.",
         "ter-title": "Template Express com Prisma e TypeScript",
         "ter-desc": "Pacote NPM que permite criar um projeto Express com apenas 1 linha. O projeto estará pronto para uso e oferece opções de configuração completas.",
         "sm-title": "Server Monitoring",
@@ -30,15 +24,17 @@
         "tic-title": "Jogo Velha Online",
         "tic-desc": "Jogo com WebSocket, proteções, reconexão, Mmodos de jogo Local e com Bot. Possibilidade de instalar no smartphone"
     },
-    
-
+    "Hub": {
+        "bing-title": "BINGO!",
+        "bing-desc": "Sim, você leu certo! Um jogo de bingo totalmente realista: sorteio de números, cartelas e, para ter mais emoção, adversários!",
+        "cri-title": "Criptografia",
+        "cri-desc": "Método próprio de criptografia. Permite codificar mensagens e descriptografá-las."
+    },
     "Theme": {
         "dark": "Escuro",
         "light": "Claro",
         "sys": "Sistema"
     },
-
-
     "Contact": {
         "title": "Contato",
         "sub": "Que tal nos conhecermos?",
@@ -47,7 +43,6 @@
         "text2": ". Entre em contato comigo para saber mais através dos links abaixo:",
         "cv": "Meu currículo"
     },
-
     "Footer": {
         "message": "Feito com ❤️ por Victor Spichenkoff"
     }

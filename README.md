@@ -1,5 +1,5 @@
 # Meu portfolio
 
 
-## Agradecimentos:
+## Acknowledgments:
 - React Awesome Reveal 

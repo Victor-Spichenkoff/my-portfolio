@@ -25,18 +25,14 @@ export const Presentation = () => {
 
                 <div className="w-full max-w-[1200px] md:ml-20 relative mt-32">
                     <div className="flex justify-between  mx-auto">
-
                         <Header label={title} />
-
-
-
                     </div>
                     <div className="text-xl dark:text-dark-text font-semibold">{sub}</div>
 
                     <hr className="w-40 h-3 my-8 bg-black border-0 dark:bg-white/85" />
 
 
-                    {/* Minha apresentção grande + foto */}
+                    {/* Minha apresentação grande + foto */}
                     <div className="mt-20 flex justify-between">
                         <p className="pr-10 md:max-w-[500px] md:text-justify">
                             {text}

@@ -19,10 +19,10 @@ const Projects = () => {
                 {projectsData.map((p, i) => {
                     return (
                             <ProjectItem
-                                title={t(`${p.traslate}-title`)}
-                                description={t(`${p.traslate}-desc`)}
+                                title={t(`${p.translate}-title`)}
+                                description={t(`${p.translate}-desc`)}
                                 stacks={p.stacks}
-                                isLeftSide={i % 2 == 1}//coloca a esquerda nos impares
+                                isLeftSide={i % 2 == 1}//odd=left
                                 bgImagesSrc={p.images}
                                 url={p.url}
                                 key={i}
