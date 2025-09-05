@@ -12,7 +12,7 @@
     "Projects": {
         "title": "Principais Projetos",
         "million-title": "Million Show Game",
-        "million-desc": "Create your portfolio or view other programmers' portfolios. Login system, likes, infinite scrolling, and much more!",
+        "million-desc": "Projeto profissional e de grande escala, seguindo as melhores práticas em desenvolvimento backend e frontend. Diagramação, segurança, integração, testes e UI/UX.",
         "pag-title": "Placeholder de Paginação",
         "pag-desc": "API para fornecer itens de paginação. Melhor que qualquer outra: edite os campos, páginas, tipos e retornos. Facilita o teste de paginação em qualquer sistema.",
         "ter-title": "Template Express com Prisma e TypeScript",
