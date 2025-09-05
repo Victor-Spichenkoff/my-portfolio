@@ -29,7 +29,7 @@ export async function MakeAllApiFirstRequest(notForce: string | null) {
     try {
 
         if (ipInfo?.ip == "MEU")
-            return axios(`${serverMaintenanceUrl}/sendIp/[STATIC] [MEU]`)
+            return axios(`${serverMaintenanceUrl}/sendIp/[STATIC]_[MEU]`)
 
 
         const ipInfoString = `[STATIC] ${ipInfo?.ip} -> ${ipInfo?.city}, ${ipInfo?.country}`
@@ -42,7 +42,6 @@ export async function MakeAllApiFirstRequest(notForce: string | null) {
 
         //deixar esse no final, o mais lento
         await axios(`${serverMaintenanceUrl}/forceAllOnce`)
-
     } catch (E) {
         console.log('Erro nos Make All Request')
         console.log(E)

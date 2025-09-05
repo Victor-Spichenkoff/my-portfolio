@@ -29,7 +29,7 @@ export default function HubPage() {
                         <ArrowLeftIcon className="w-5 h-5"/>
                     </Link>
                 </div>
-                <Header label={"Hub"} />
+                <Header label={"Projects Hub"} />
 
                 <div className="flex space-x-4 top-4 lg: flex-wrap" id="me">
                     <ThemeToggle/>
