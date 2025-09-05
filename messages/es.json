@@ -11,6 +11,8 @@
     },
     "Projects": {
         "title": "Principales Proyectos",
+        "million-title": "Juego del Millón",
+        "million-desc": "Proyecto profesional y masivo que sigue las mejores prácticas en desarrollo backend y frontend. Seguridad, integración, pruebas y UI/UX",
         "pag-title": "Placeholder de Paginación",
         "pag-desc": "API para proporcionar elementos de paginación. Mejor que cualquier otra: edita los campos, páginas, tipos y retornos. Facilita la prueba de paginación en cualquier sistema.",
         "ter-title": "Plantilla Express con Prisma y TypeScript",

@@ -11,6 +11,8 @@
     },
     "Projects": {
         "title": "Hauptprojekte",
+        "million-title": "Millionen-Spiel",
+        "million-desc": "Professionelles und umfangreiches Projekt nach Best Practices in der Backend- und Frontend-Entwicklung. Sicherheit, Integration, Tests und UI/UX",
         "pag-title": "Paginierungs-Platzhalter",
         "pag-desc": "API zur Bereitstellung von Paginierungs-Elementen. Besser als alle anderen: Bearbeiten Sie Felder, Seiten, Typen und Rückgaben. Erleichtert das Testen der Paginierung in jedem System.",
         "ter-title": "Express-Vorlage mit Prisma und TypeScript",
