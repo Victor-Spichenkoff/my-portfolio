@@ -13,12 +13,6 @@
         "title": "Principais Projetos",
         "million-title": "Million Show Game",
         "million-desc": "Create your portfolio or view other programmers' portfolios. Login system, likes, infinite scrolling, and much more!",
-
-
-        "portfolios-title": "Compartilhe Portfólios",
-        "portfolios-desc": "Crie seu portfólio ou veja o de outros programadores. Sistema de login, curtidas, rolagem infinita e muito mais!",
-        "arc-title": "Site de Artigos",
-        "arc-desc": "Crie, edite e leia artigos. Sistema de login, categorias, busca de artigos e mais!",
         "pag-title": "Placeholder de Paginação",
         "pag-desc": "API para fornecer itens de paginação. Melhor que qualquer outra: edite os campos, páginas, tipos e retornos. Facilita o teste de paginação em qualquer sistema.",
         "ter-title": "Template Express com Prisma e TypeScript",
@@ -26,9 +20,15 @@
         "sm-title": "Server Monitoring",
         "sm-desc": "API para evitar spin down e monitorar o uso de recursos por meus projetos. Em conjunto com um site, para ajudar no controle e monitoramento",
         "tic-title": "Jogo Velha Online",
-        "tic-desc": "Jogo com WebSocket, proteções, reconexão, Mmodos de jogo Local e com Bot. Possibilidade de instalar no smartphone"
+        "tic-desc": "Jogo com WebSocket, proteções, reconexão, Mmodos de jogo Local e com Bot. Possibilidade de instalar no smartphone",
+        "z-title": "Z",
+        "z-desc": "Uma rede social inspirada no X! Sistema de Likes, seguir, upload de imagens, trending topics busca"
     },
     "Hub": {
+        "portfolios-title": "Compartilhe Portfólios",
+        "portfolios-desc": "Crie seu portfólio ou veja o de outros programadores. Sistema de login, curtidas, rolagem infinita e muito mais!",
+        "arc-title": "Site de Artigos",
+        "arc-desc": "Crie, edite e leia artigos. Sistema de login, categorias, busca de artigos e mais!",
         "bing-title": "BINGO!",
         "bing-desc": "Sim, você leu certo! Um jogo de bingo totalmente realista: sorteio de números, cartelas e, para ter mais emoção, adversários!",
         "cri-title": "Criptografia",

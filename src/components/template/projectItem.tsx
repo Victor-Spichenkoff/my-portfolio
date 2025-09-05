@@ -14,15 +14,16 @@ interface IProjectItem {
     bgImagesSrc?: string[] | StaticImport[]
     isLeftSide?: boolean
     url?: string
+    noSlide?: boolean
 }
 
-export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios], stacks, isLeftSide=false, url }: IProjectItem) => {
+export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios], stacks, isLeftSide=false, url, noSlide }: IProjectItem) => {
     return (
-                    
+
         // <AnimatedItemProjects right={!isLeftSide}>
         <Slide delay={0} direction={isLeftSide ? "left" : "right"} triggerOnce>
         <Link href={url ?? "/"} target="_blank">
-        
+
         <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 bg-black/20 p-6 rounded-lg shadow-lg
             `}
             id="project-item-containter"
@@ -45,7 +46,7 @@ export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios
             </div>
             <div className="hidden md:block md:w-1/2 p-0">
                 {/* <Image src={bgImagesSrc[0]} alt={title} layout="responsive" width={800} height={450} className="rounded-lg shadow-lg hidden md:block" /> */}
-                <AutomaticSlider images={bgImagesSrc} />
+                <AutomaticSlider images={bgImagesSrc} autoplay={!noSlide} />
             </div>
         </div>
 

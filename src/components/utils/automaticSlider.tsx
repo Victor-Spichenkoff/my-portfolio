@@ -6,17 +6,19 @@ import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 interface IAutomaticSlider {
     images: string[] | StaticImport[]
+    autoplay?: boolean
 }
 
-export const AutomaticSlider = ({ images }: IAutomaticSlider) => {
+export const AutomaticSlider = ({ images, autoplay }: IAutomaticSlider) => {
     const settings = {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay,
         autoplaySpeed: 3000,
-        arrows: false
+        arrows: false,
+
     }
 
 

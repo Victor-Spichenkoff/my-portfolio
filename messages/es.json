@@ -11,10 +11,6 @@
     },
     "Projects": {
         "title": "Principales Proyectos",
-        "portfolios-title": "Comparte Portafolios",
-        "portfolios-desc": "Crea tu portafolio o mira el de otros programadores. Sistema de inicio de sesión, me gusta, desplazamiento infinito y mucho más!",
-        "arc-title": "Sitio de Artículos",
-        "arc-desc": "Crea, edita y lee artículos. Sistema de inicio de sesión, categorías, búsqueda de artículos y más!",
         "pag-title": "Placeholder de Paginación",
         "pag-desc": "API para proporcionar elementos de paginación. Mejor que cualquier otra: edita los campos, páginas, tipos y retornos. Facilita la prueba de paginación en cualquier sistema.",
         "ter-title": "Plantilla Express con Prisma y TypeScript",
@@ -25,10 +21,17 @@
         "tic-desc": "Juego con WebSocket, protecciones, reconexión, modos de juego Local y Bot. Posibilidad de instalar en smartphone"
     },
     "Hub": {
+        "portfolios-title": "Comparte Portafolios",
+        "portfolios-desc": "Crea tu portafolio o mira el de otros programadores. Sistema de inicio de sesión, me gusta, desplazamiento infinito y mucho más!",
+
+        "arc-title": "Sitio de Artículos",
+        "arc-desc": "Crea, edita y lee artículos. Sistema de inicio de sesión, categorías, búsqueda de artículos y más!",
         "bing-title": "¡BINGO!",
         "bing-desc": "Sí, leíste bien! Un juego de bingo totalmente realista: sorteo de números, cartones y, para mayor emoción, ¡oponentes!",
         "cri-title": "Cifrado",
-        "cri-desc": "Método propio de cifrado. Permite codificar mensajes y descifrarlos."
+        "cri-desc": "Método propio de cifrado. Permite codificar mensajes y descifrarlos.",
+        "z-title": "Z",
+        "z-desc": "¡Una red social inspirada en X con likes, búsqueda, seguimiento, temas de tendencia y sistemas de actualización de imágenes!"
     },
     "Theme": {
         "dark": "Oscuro",

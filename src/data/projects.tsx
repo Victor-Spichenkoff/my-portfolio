@@ -33,6 +33,8 @@ import MS2 from "@/assets/screenshots/MS2.png"
 import MS3 from "@/assets/screenshots/MS3.png"
 import MS4 from "@/assets/screenshots/MS4.png"
 
+import Z1 from "@/assets/screenshots/z1.png"
+import Z2 from "@/assets/screenshots/z2.png"
 
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
 import B1 from "@/assets/screenshots/b1.png";
@@ -46,17 +48,19 @@ export interface IProjectForItem {
     images: string[] | StaticImport[]
     stacks?: AllStack[]
     url: string
+    noSlide?: boolean
 }
 
 export const projectsWithStack = {
     Million: getSeveralStacksIcons(["NEXT", "TS", "Security", "Tail", "Nest"]),
 
 
-
+    TicTac: getSeveralStacksIcons(["NEXT", "CS", "DOTNET", "Tail", "DOC"]),
     Pagination: getSeveralStacksIcons(["HTML", "CSS", "TS", "Node", "NEXT"]),
 
     Ter: getSeveralStacksIcons(["CS", "DOTNET", "Security",  "Node"]),
-    Server: getSeveralStacksIcons(["NEXT", "TS", "Tail","Security", "GitHub"])
+    Server: getSeveralStacksIcons(["NEXT", "TS", "Tail","Security", "GitHub"]),
+    Z: getSeveralStacksIcons(["NEXT", "TS", "Tail","Security", "Node", "Cloud"]),
 
 }
 
@@ -95,10 +99,10 @@ export const projectsData: IProjectForItem[] = [
         url: "https://tic-tac-toe-online-six.vercel.app"
     },
     {
-        translate: "Z",
+        translate: "z",
         // TODO: Z
-        images: [  ],
-        stacks: extraProjectsWithStack.Z,
+        images: [ Z1, Z2 ],
+        stacks: projectsWithStack.Z,
         url: "https://victor-spichenkoff.github.io/bingo-build/"
     },
 

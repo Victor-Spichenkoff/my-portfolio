@@ -13,10 +13,6 @@
         "title": "Main Projects",
         "million-title": "Million Show Game",
         "million-desc": "Professional and Massive project following best practices in backend and frontend development. Security, integration, testing and UI/UX",
-
-
-"arc-title": "Articles Site",
-        "arc-desc": "Create, edit, and read articles. Login system, categories, article search, and more!",
         "pag-title": "Pagination Placeholder",
         "pag-desc": "API to provide pagination items. Better than any other: edit fields, pages, types, and returns. Makes testing pagination in any system easier.",
         "ter-title": "Express Template with Prisma and TypeScript",
@@ -24,9 +20,13 @@
         "sm-title": "Server Monitoring",
         "sm-desc": "API to avoid spin down and monitor resource usage by my projects. In conjunction with a website, to help with control and monitoring",
         "tic-title": "Online Tic Tac Toe",
-        "tic-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone"
+        "tic-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
+        "z-title": "Z",
+        "z-desc": "A X inspired social media with likes, search, following, trending topics and image update systems!"
     },
     "Hub": {
+        "arc-title": "Articles Site",
+        "arc-desc": "Create, edit, and read articles. Login system, categories, article search, and more!",
         "portfolios-title": "Share Portfolios",
         "portfolios-desc": "Create your portfolio or view other programmers' portfolios. Login system, likes, infinite scrolling, and much more!",
         "bing-title": "BINGO!",
@@ -35,10 +35,12 @@
         "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages.",
         "a-title": "Online Tic Tac Toe",
         "a-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
-        "weather-title": "Online Tic Tac Toe",
-        "weather-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
-        "-title": "Online Tic Tac Toe",
-        "-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone"
+        "weather-title": "Weather",
+        "weather-desc": "A weather website with external API integration with Open Weather Api",
+        "flappy-title": "Flappy Bird",
+        "flappy-desc": "The classic game made in your browser!",
+        "html_css-title": "HTML & CSS",
+        "html_css-desc": "A repository focused on HTML and CSS projects only. UI training"
     },
     "Theme": {
         "dark": "Dark",

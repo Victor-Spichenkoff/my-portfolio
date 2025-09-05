@@ -50,6 +50,7 @@ export default function HubPage() {
                             bgImagesSrc={p.images}
                             url={p.url}
                             key={i}
+                            noSlide={p.noSlide}
                         />
                     )
                 })}
@@ -64,6 +65,7 @@ export default function HubPage() {
                             bgImagesSrc={p.images}
                             url={p.url}
                             key={i}
+                            noSlide={p.noSlide}
                         />
                     )
                 })}

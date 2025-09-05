@@ -11,10 +11,6 @@
     },
     "Projects": {
         "title": "Hauptprojekte",
-        "portfolios-title": "Portfolios teilen",
-        "portfolios-desc": "Erstellen Sie Ihr Portfolio oder sehen Sie sich die Portfolios anderer Programmierer an. Login-System, Likes, unendliches Scrollen und vieles mehr!",
-        "arc-title": "Artikel-Website",
-        "arc-desc": "Erstellen, bearbeiten und lesen Sie Artikel. Login-System, Kategorien, Artikelsuche und mehr!",
         "pag-title": "Paginierungs-Platzhalter",
         "pag-desc": "API zur Bereitstellung von Paginierungs-Elementen. Besser als alle anderen: Bearbeiten Sie Felder, Seiten, Typen und Rückgaben. Erleichtert das Testen der Paginierung in jedem System.",
         "ter-title": "Express-Vorlage mit Prisma und TypeScript",
@@ -22,9 +18,17 @@
         "sm-title": "Serverüberwachung",
         "sm-desc": "API zur Vermeidung von Spin-Down und zur Überwachung der Ressourcennutzung meiner Projekte. In Kombination mit einer Website zur Unterstützung der Kontrolle und Überwachung.",
         "tic-title": "Online Tic Tac Toe",
-        "tic-desc": "Spiel mit WebSocket, Schutz, Wiederverbindung, lokalem und Bot-Spielmodus. Möglichkeit zur Installation auf dem Smartphone."
+        "tic-desc": "Spiel mit WebSocket, Schutz, Wiederverbindung, lokalem und Bot-Spielmodus. Möglichkeit zur Installation auf dem Smartphone.",
+        "z-title": "Z",
+        "z-desc": "Ein soziales Netzwerk, inspiriert von X! Likes-System, Folgen, Bilder hochladen, Trending Topics, Suche"
+
     },
     "Hub": {
+        "portfolios-title": "Portfolios teilen",
+        "portfolios-desc": "Erstellen Sie Ihr Portfolio oder sehen Sie sich die Portfolios anderer Programmierer an. Login-System, Likes, unendliches Scrollen und vieles mehr!",
+
+        "arc-title": "Artikel-Website",
+        "arc-desc": "Erstellen, bearbeiten und lesen Sie Artikel. Login-System, Kategorien, Artikelsuche und mehr!",
         "bing-title": "BINGO!",
         "bing-desc": "Ja, Sie haben richtig gelesen! Ein vollständig realistisches Bingo-Spiel: Zahlenauslosung, Karten und für noch mehr Spannung, Gegner!",
         "cri-title": "Kryptographie",
