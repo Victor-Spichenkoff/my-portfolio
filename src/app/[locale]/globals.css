@@ -127,7 +127,7 @@
 }
 
 
-@media ((min-height: 590px) and (min-width: 868px)) {
+@media (min-height: 590px) and (min-width: 868px) {
   #scroll-tecnologies {
     display: block;
   }

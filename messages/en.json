@@ -11,9 +11,11 @@
     },
     "Projects": {
         "title": "Main Projects",
-        "portfolios-title": "Share Portfolios",
-        "portfolios-desc": "Create your portfolio or view other programmers' portfolios. Login system, likes, infinite scrolling, and much more!",
-        "arc-title": "Articles Site",
+        "million-title": "Million Show Game",
+        "million-desc": "Professional and Massive project following best practices in backend and frontend development. Security, integration, testing and UI/UX",
+
+
+"arc-title": "Articles Site",
         "arc-desc": "Create, edit, and read articles. Login system, categories, article search, and more!",
         "pag-title": "Pagination Placeholder",
         "pag-desc": "API to provide pagination items. Better than any other: edit fields, pages, types, and returns. Makes testing pagination in any system easier.",
@@ -25,12 +27,16 @@
         "tic-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone"
     },
     "Hub": {
+        "portfolios-title": "Share Portfolios",
+        "portfolios-desc": "Create your portfolio or view other programmers' portfolios. Login system, likes, infinite scrolling, and much more!",
         "bing-title": "BINGO!",
         "bing-desc": "Yes, you read that right! A fully realistic bingo game: number drawing, cards, and for added excitement, opponents!",
         "cri-title": "Cryptography",
         "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages.",
         "a-title": "Online Tic Tac Toe",
         "a-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
+        "weather-title": "Online Tic Tac Toe",
+        "weather-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
         "-title": "Online Tic Tac Toe",
         "-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone"
     },

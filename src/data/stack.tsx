@@ -17,23 +17,24 @@ import Cloud from "@/assets/stacks/Cloud.png"
 import Security from "@/assets/stacks/Security.png"
 import GitHub from "@/assets/stacks/GitHub.webp"
 import Tail from "@/assets/stacks/tail.png"
+import Nest from "@/assets/stacks/nest.png"
 import Image from 'next/image'
 
-export type AllStack = "HTML" | "CSS" | "JS" | "TS" | "CS" | "REACT" | "NEXT" | "DOTNET" | "Node" | "POST" | "MONGO" | "Python" | "DOC" | "Diplome" | "Security" | "Cloud" | "GitHub" | "Tail"
+export type AllStack = "HTML" | "CSS" | "JS" | "TS" | "CS" | "REACT" | "NEXT" | "DOTNET" | "Node" | "POST" | "MONGO" | "Python" | "DOC" | "Diplome" | "Security" | "Cloud" | "GitHub" | "Tail" | "Nest"
 
 
 export const stacksArray = [
-    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, Tail,DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome
+    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, Tail,DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome, Nest
 ]
 
 export const stackObj = {
-    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome, Tail
+    HTML, CSS, JS, TS, GitHub, CS, REACT, NEXT, DOTNET, Node, POST, MONGO, Python, DOC, Cloud, Security, Diplome, Tail, Nest
 }
 
 
 /**
- * 
- * 
+ *
+ *
  * @returns Image formatada para o slider
  */
 export const getStackIcon = (name: AllStack) => {
@@ -41,7 +42,7 @@ export const getStackIcon = (name: AllStack) => {
     return (
         <Image src={image} alt='Stack' width={40} height={40} className='ml-5' />
     )
-} 
+}
 
 
 export const getSeveralStacksIcons = (names: AllStack[]) => {

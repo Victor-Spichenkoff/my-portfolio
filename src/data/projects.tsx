@@ -28,8 +28,16 @@ import TIC2 from "@/assets/screenshots/tic2.png"
 import TIC3 from "@/assets/screenshots/tic3.png"
 
 
+import MS1 from "@/assets/screenshots/MS1.png"
+import MS2 from "@/assets/screenshots/MS2.png"
+import MS3 from "@/assets/screenshots/MS3.png"
+import MS4 from "@/assets/screenshots/MS4.png"
+
 
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
+import B1 from "@/assets/screenshots/b1.png";
+import B2 from "@/assets/screenshots/b2.png";
+import B3 from "@/assets/screenshots/b3.png";
 
 export interface IProjectForItem {
     title?: string
@@ -41,25 +49,27 @@ export interface IProjectForItem {
 }
 
 export const projectsWithStack = {
-    Portfolios: getSeveralStacksIcons(["HTML", "CSS", "Node" ,"TS", "NEXT", "POST", "Security", "Tail", "GitHub"]),
-    Articles: getSeveralStacksIcons(["HTML", "CSS", "JS", "REACT", "Node","Security", "MONGO", "GitHub"]) ,
+    Million: getSeveralStacksIcons(["NEXT", "TS", "Security", "Tail", "Nest"]),
+
+
+
     Pagination: getSeveralStacksIcons(["HTML", "CSS", "TS", "Node", "NEXT"]),
 
     Ter: getSeveralStacksIcons(["CS", "DOTNET", "Security",  "Node"]),
     Server: getSeveralStacksIcons(["NEXT", "TS", "Tail","Security", "GitHub"])
+
 }
 
 
 
 export const projectsData: IProjectForItem[] = [
     {
-        translate: "portfolios",
-        // title: t("portfolios-title"),
-        // description: "Minha descrição sobre ele",
-        images: [ P1, P2, P3 ],
-        stacks: projectsWithStack.Portfolios,
-        url: "https://victor-spichenkoff.github.io/portfolio/auth"
+        translate: "million",
+        images: [ MS1, MS2, MS3, MS4 ],
+        stacks: projectsWithStack.Million,
+        url: "https://https://million-show.vercel.app/"
     },
+
     {
         translate: "ter",
         images: [ T1, T3 ],
@@ -81,26 +91,15 @@ export const projectsData: IProjectForItem[] = [
     {
         translate: "tic",
         images: [ TIC1, TIC2, TIC3 ],
-        stacks: projectsWithStack.Articles,
+        stacks: projectsWithStack.TicTac,
         url: "https://tic-tac-toe-online-six.vercel.app"
     },
     {
-        translate: "arc",
-        images: [ A1, A2, A3 ],
-        stacks: projectsWithStack.Articles,
-        url: "https://victor-spichenkoff.github.io/vss-artigos-frontend/#/auth"
+        translate: "Z",
+        // TODO: Z
+        images: [  ],
+        stacks: extraProjectsWithStack.Z,
+        url: "https://victor-spichenkoff.github.io/bingo-build/"
     },
-    // {
-    //     translate: "bing",
-    //     images: [ B1,B2, B3 ],
-    //     stacks: projectsWithStack.Bingo,
-    //     url: "https://victor-spichenkoff.github.io/bingo-build/"
-    // },
-    // {
-    //     translate: "cri",
-    //     images: [ C1, C2 ],
-    //     stacks: projectsWithStack.Cripto,
-    //     url: "https://victor-spichenkoff.github.io/criptografia/"
-    // },
 
 ]
