@@ -1,4 +1,4 @@
-import Reveal, { Fade } from "react-awesome-reveal"
+import { Fade, Reveal } from "react-awesome-reveal"
 import Slider from "react-slick"
 import Link from "next/link";
 import {ArrowLeftIcon} from "lucide-react";
