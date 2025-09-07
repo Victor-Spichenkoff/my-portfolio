@@ -2,11 +2,10 @@ import { useTranslations } from "next-intl"
 import { Header } from "../template/header"
 import { ThemeToggle } from "../utils/themeToggle"
 import { ToggleLocale } from "../utils/toggleLocale"
-import { Rows } from "lucide-react"
 import Image from "next/image"
 import Moked from '@/assets/moked.png'
 import { ScrolTecnologies } from "../utils/scrollTecnologies"
-import { Fade, Slide, Reveal } from "react-awesome-reveal";
+import { Reveal } from "react-awesome-reveal";
 
 
 export const Presentation = () => {
