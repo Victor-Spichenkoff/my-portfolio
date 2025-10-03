@@ -40,6 +40,7 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props"
 import B1 from "@/assets/screenshots/b1.png";
 import B2 from "@/assets/screenshots/b2.png";
 import B3 from "@/assets/screenshots/b3.png";
+import {getRedirectUrl} from "@/utils/callRedirectApi.ts";
 
 export interface IProjectForItem {
     title?: string
@@ -65,45 +66,72 @@ export const projectsWithStack = {
 }
 
 
+const baseRedirectUrl = "https://vss-hub.vercel.app"
+const urls = {
+    // million: "https://https://million-show.vercel.app/",
+    // terminal: "https://www.npmjs.com/package/vss-express",
+    // serverMaintenance: "https://server-maintenance-page.vercel.app",
+    // paginationApi: "https://github.com/Victor-Spichenkoff/pagination-api",
+    // ticTacOnline: "https://tic-tac-toe-online-six.vercel.app",
+    // z: "https://z-frontend-seven.vercel.app/signin"
+
+    // million: baseRedirectUrl+"/million",
+    // terminal: baseRedirectUrl+"/vssExpress",
+    // serverMaintenance: baseRedirectUrl+"/serverMaintenance",
+    // paginationApi: baseRedirectUrl+"/paginationApi",
+    // ticTacOnline: baseRedirectUrl+"/ticTacToe",
+    // z: "https://z-frontend-seven.vercel.app/signin",
+
+    million: getRedirectUrl("million"),
+    terminal: getRedirectUrl("vssExpress"),
+    serverMaintenance: getRedirectUrl("serverMaintenance"),
+    paginationApi: getRedirectUrl("paginationApi"),
+    ticTacOnline: getRedirectUrl("ticTacToe"),
+    z: "https://z-frontend-seven.vercel.app/signin",
+
+}
+
+
 
 export const projectsData: IProjectForItem[] = [
     {
         translate: "million",
         images: [ MS1, MS2, MS3, MS4 ],
         stacks: projectsWithStack.Million,
-        url: "https://https://million-show.vercel.app/"
+        url: urls.million
     },
 
     {
         translate: "ter",
         images: [ T1, T3 ],
         stacks: projectsWithStack.Ter,
-        url: "https://www.npmjs.com/package/vss-express"
+        url: urls.terminal
     },
     {
         translate: "sm",
         images: [ SM1, SM2, SM3],
         stacks: projectsWithStack.Server,
-        url: "https://server-maintenance-page.vercel.app"
+        url: urls.serverMaintenance
     },
     {
         translate: "pag",
         images: [ PAG1, PAG3, PAG2 ],
         stacks: projectsWithStack.Pagination,
-        url: "https://github.com/Victor-Spichenkoff/pagination-api"
+        url: urls.paginationApi
     },
     {
         translate: "tic",
         images: [ TIC1, TIC2, TIC3 ],
         stacks: projectsWithStack.TicTac,
-        url: "https://tic-tac-toe-online-six.vercel.app"
+        url: urls.ticTacOnline
     },
     {
         translate: "z",
-        // TODO: Z
+        //TODO: Z
         images: [ Z1, Z2 ],
         stacks: projectsWithStack.Z,
-        url: "https://victor-spichenkoff.github.io/bingo-build/"
+        url: urls.z
     },
-
 ]
+
+

@@ -11,10 +11,17 @@ import { Contact } from "@/components/sections/Contact";
 import { useCallback, useEffect, useState } from "react";
 import { MakeAllApiFirstRequest, teste } from "@/utils/loadAllAPIS";
 import { useSearchParams } from 'next/navigation';
+import {alertAccessToRedirectApi} from "@/utils/callRedirectApi.ts";
+import {useLocale} from "next-intl";
 
 
 export default function Home() {
-  const searchParams = useSearchParams();
+
+    const locale = useLocale()
+    alertAccessToRedirectApi(locale)
+
+
+    const searchParams = useSearchParams();
 
   useEffect(() => {
     const notForce = searchParams.get('notForce');
