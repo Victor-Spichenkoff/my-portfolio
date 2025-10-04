@@ -33,8 +33,6 @@ export const getRedirectUrl = (endpoint: RedirectEndpoints, extra?: string) => {
 
 
 export const alertAccessToRedirectApi = async (locale: string = "pt") => {
-    console.log("Algo")
-    console.log(getUrlAlertUrl("million", `access on: ${locale}`))
     await axios.get(getUrlAlertUrl("million", `access on: ${locale}`))
 }
 
