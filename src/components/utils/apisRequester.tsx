@@ -1,10 +1,9 @@
 import {TestApiWorkService} from "@/services/apiConnection";
 
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 import {getStoreLastUsedTime, storeLastUsedTime} from "@/utils/apiConnectionStorage.ts";
 import {Env} from "@/lib/env.ts";
-
-
+import {Console} from "@/utils/console.ts";
 
 
 interface IConnectionTest {
@@ -25,7 +24,7 @@ export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest)
             return
         }
 
-        console.log("STARTING: " + name);
+        Console.dev("STARTING: " + name);
 
         (async () => {
             const success = await handleTestAgainClick()
@@ -52,14 +51,14 @@ export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest)
 
 
         if (oldTime + 1000 * 60 * 10 > now && !Env.isDevOrTest) {
-            console.log("Already loaded!")
+            Console.dev("Already loaded!")
             return true
         }
-
 
         const isSuccess = await TestApiWorkService(baseUrl)
         if (!isSuccess)
             return false
+
 
         storeLastUsedTime(now)
 
@@ -71,18 +70,21 @@ export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest)
 
     const TryAgain = async () => {
         attempts++
+        Console.dev("Trying again for: " + name + " " + attempts)
 
         const success = await handleTestAgainClick()
 
-        if (success)
+        if (success) {
+            Console.dev("STARTED!!" + name)
             return
+        }
+
 
 
         setTimeout(async () => {
             await TryAgain()
         }, 5000)
     }
-
 
     return null
 }

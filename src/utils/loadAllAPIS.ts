@@ -10,7 +10,7 @@ async function getIp(notForce: boolean) {
     try {
         const ip = getLocalNetworkIp()
         const res = await axios.get(`https://ipinfo.io/${encodeURIComponent(ip ?? "")}/json`)
-        console.log(res.data)
+
         return {
             ip: notForce ? "MEU" : res.data.ip,
             city: res.data.city,
