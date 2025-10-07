@@ -1,23 +1,35 @@
-const isDev = process.env.NODE_ENV === "development"
+import {RedirectEndpoints} from "@/utils/callRedirectApi.ts";
+import {Env} from "@/lib/env.ts";
 
-const getUrlOrDevUrl = (url: string) => isDev ? "http://localhost:2006" : url
 
-const placeHolder = {
-    name: "PLACEHOLDER",
-    baseUrl: "http://localhost:2006",
+const getUrlOrDevUrl = (url: string) => Env.Always_Dev ? "http://localhost:2006" : url
+
+
+interface IApiUrls {
+    name: string,
+    baseUrl: string,
+    redirectApiEndpoint: RedirectEndpoints,
 }
 
-export const ApiUrls = [
+const placeHolder:IApiUrls = {
+    name: "PLACEHOLDER",
+    baseUrl: "http://localhost:2006",
+    redirectApiEndpoint: "tests"
+}
+
+export const ApiUrls: IApiUrls[] = [
     // {
     //     name: "Server Maintenance",
     //     baseUrl: getUrlOrDevUrl("https://server-maintenance-page.vercel.app")
     // },
     {
         name: "Redirect",
-        baseUrl: getUrlOrDevUrl("https://vss-hub.vercel.app")
+        baseUrl: getUrlOrDevUrl("https://vss-hub.vercel.app"),
+        redirectApiEndpoint: "tests"
     },
-    isDev ? placeHolder : {
+    Env.isDev ? placeHolder : {
         name: "Million",
-        baseUrl: getUrlOrDevUrl("https://million-show-api.onrender.com")
+        baseUrl: getUrlOrDevUrl("https://million-show-api.onrender.com"),
+        redirectApiEndpoint: "million"
     },
 ]

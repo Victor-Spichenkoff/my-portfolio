@@ -1,4 +1,7 @@
 import axios from "axios";
+import {RedirectEndpoints, redirectEndpoints} from "@/utils/callRedirectApi.ts";
+import {Env} from "@/lib/env.ts";
+import {redirectApiUrl} from "../../global.ts";
 
 const serverMaintenaceApiService = ""
 
@@ -13,4 +16,13 @@ export const TestApiWorkService = async (urlBase: string) => {
     } catch {
         return false
     }
+}
+
+
+export const alertWorkingApiService = async (endpoint: RedirectEndpoints) => {
+    if(endpoint=="tests")
+        return
+    try {
+        await axios(`${redirectApiUrl}/${endpoint}?isPort&extra=started by MY PORT`)
+    } catch {}
 }

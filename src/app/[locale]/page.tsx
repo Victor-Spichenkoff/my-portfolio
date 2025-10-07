@@ -20,7 +20,7 @@ export default function Home() {
     const locale = useLocale()
 
     useEffect(() => {
-        alertAccessToRedirectApi(locale)//
+        alertAccessToRedirectApi(locale)
         // const notForce = searchParams.get('notForce')
         // MakeAllApiFirstRequest(notForce)//building new system. ConnectionTest
     }, [locale, searchParams])
@@ -30,7 +30,12 @@ export default function Home() {
     bg-gradient-to-br from-zinc-100 to-zinc-400 dark:from-dark-main dark:to-dark-section h-screen snap-y snap-mandatory overflow-y-scroll md:px-10"
              id="scrolavel">
             {ApiUrls.map(url => (
-                <ConnectionTest baseUrl={url.baseUrl} name={url.name} key={url.name}/>
+                <ConnectionTest
+                    baseUrl={url.baseUrl}
+                    name={url.name}
+                    key={url.name}
+                    redirectApiEndpoint={url.redirectApiEndpoint}
+                />
             ))}
             <ScrollMenu/>
             {/* <TopBlur /> */}

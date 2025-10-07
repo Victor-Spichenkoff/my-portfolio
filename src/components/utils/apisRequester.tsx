@@ -1,24 +1,26 @@
-import {TestApiWorkService} from "@/services/apiConnection";
+import {alertWorkingApiService, TestApiWorkService} from "@/services/apiConnection";
 
 import {useEffect} from "react";
 import {getStoreLastUsedTime, storeLastUsedTime} from "@/utils/apiConnectionStorage.ts";
 import {Env} from "@/lib/env.ts";
 import {Console} from "@/utils/console.ts";
+import {RedirectEndpoints} from "@/utils/callRedirectApi.ts";
 
 
 interface IConnectionTest {
     setLockActions?: (s: boolean) => void
     baseUrl: string
     name: string
+    redirectApiEndpoint: RedirectEndpoints
 }
 
 let attempts = 0
 /*
 * setNavigationLock → true _> não navega para outras áreas
 * */
-export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest) => {
+export const ConnectionTest = ({setLockActions, baseUrl, name, redirectApiEndpoint}: IConnectionTest) => {
     useEffect(() => {
-        if (Env.isDev) {
+        if (Env.isDev || name == "PLACEHOLDER") {
             if (setLockActions)
                 setLockActions(false)
             return
@@ -29,9 +31,10 @@ export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest)
         (async () => {
             const success = await handleTestAgainClick()
 
-            if (success)
+            if (success) {
+                await alertWorkingApiService(redirectApiEndpoint)
                 return
-
+            }
 
             // recursive
             await TryAgain()
@@ -51,7 +54,8 @@ export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest)
 
 
         if (oldTime + 1000 * 60 * 10 > now && !Env.isDevOrTest) {
-            Console.dev("Already loaded!")
+            Console.dev("Already loaded recently!")
+
             return true
         }
 
@@ -65,8 +69,11 @@ export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest)
 
         if (setLockActions)
             setLockActions(false)
+
+        await alertWorkingApiService(redirectApiEndpoint)
         return true
     }
+
 
     const TryAgain = async () => {
         attempts++
@@ -78,8 +85,6 @@ export const ConnectionTest = ({setLockActions, baseUrl, name}: IConnectionTest)
             Console.dev("STARTED!!" + name)
             return
         }
-
-
 
         setTimeout(async () => {
             await TryAgain()
