@@ -23,6 +23,6 @@ export const alertWorkingApiService = async (endpoint: RedirectEndpoints) => {
     if(endpoint=="tests")
         return
     try {
-        await axios(`${redirectApiUrl}/${endpoint}?isPort&extra=started by MY PORT`)
+        await axios(`${redirectApiUrl}/alert/${endpoint}?isPort&extra=started by MY PORT`)
     } catch {}
 }
