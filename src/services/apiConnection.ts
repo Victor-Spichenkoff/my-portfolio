@@ -9,9 +9,9 @@ const serverMaintenaceApiService = ""
 * * Everything will use the [url]/teste*/
 export const TestApiWorkService = async (urlBase: string) => {
     try {
-    await axios(urlBase+"/teste", {
-         timeout: 7_000
-    })
+        await axios(urlBase+"/teste", {
+             timeout: 7_000
+        })
         return true
     } catch {
         return false

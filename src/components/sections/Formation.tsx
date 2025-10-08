@@ -17,7 +17,7 @@ export const Formation = () => {
             <Header label={title} />
             <div className=" mt-10 flex gap-[50px] flex-wrap justify-center shadow-md bg-black/20 px-4 py-8 rounded-lg ">
                 {/* <div className=" mt-10 flex gap-[50px] flex-wrap justify-center shadow-md bg-black/20 -ml-4 -mr-4 p-4 py-8 md:-ml-0 md:mr-0 md:p-4 md:py-6 rounded-lg"> */}
-                    <FormationItem provider="Uninter" stacks={f.Uninter} percent="30" bigIcon />
+                    <FormationItem provider="Uninter" stacks={f.Uninter} percent="45" bigIcon />
 
                     <FormationItem provider="Google" stacks={f.Google} text="Google Cloud" />
                     <FormationItem provider="B7Web" stacks={f.B7Web} percent="90" />

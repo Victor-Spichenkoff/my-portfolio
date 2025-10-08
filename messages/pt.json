@@ -18,11 +18,11 @@
         "ter-title": "Template Express com Prisma e TypeScript",
         "ter-desc": "Pacote NPM que permite criar um projeto Express com apenas 1 linha. O projeto estará pronto para uso e oferece opções de configuração completas.",
         "sm-title": "Server Monitoring",
-        "sm-desc": "API para evitar spin down e monitorar o uso de recursos por meus projetos. Em conjunto com um site, para ajudar no controle e monitoramento",
+        "sm-desc": "API para evitar spin down e monitorar o uso de recursos por meus projetos. Em conjunto com um site, para ajudar no controle e monitoramento.",
         "tic-title": "Jogo Velha Online",
-        "tic-desc": "Jogo com WebSocket, proteções, reconexão, Mmodos de jogo Local e com Bot. Possibilidade de instalar no smartphone",
+        "tic-desc": "Jogo com WebSocket, proteções, reconexão, Mmodos de jogo Local e com Bot. Possibilidade de instalar no smartphone.",
         "z-title": "Z",
-        "z-desc": "Uma rede social inspirada no X! Sistema de Likes, seguir, upload de imagens, trending topics busca"
+        "z-desc": "Uma rede social inspirada no X! Sistema de Likes, seguir, upload de imagens, trending topics, busca."
     },
     "Hub": {
         "portfolios-title": "Compartilhe Portfólios",

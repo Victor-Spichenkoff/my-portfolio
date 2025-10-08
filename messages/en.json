@@ -18,11 +18,11 @@
         "ter-title": "Express Template with Prisma and TypeScript",
         "ter-desc": "NPM package that allows you to create an Express project with just one line. The project will be ready to use and offers full configuration options.",
         "sm-title": "Server Monitoring",
-        "sm-desc": "API to avoid spin down and monitor resource usage by my projects. In conjunction with a website, to help with control and monitoring",
+        "sm-desc": "API to avoid spin down and monitor resource usage by my projects. In conjunction with a website, to help with control and monitoring.",
         "tic-title": "Online Tic Tac Toe",
-        "tic-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
+        "tic-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone.",
         "z-title": "Z",
-        "z-desc": "A X inspired social media with likes, search, following, trending topics and image update systems!"
+        "z-desc": "A X inspired social media with likes, search, following, trending topics and image upload systems!"
     },
     "Hub": {
         "arc-title": "Articles Site",
@@ -34,7 +34,7 @@
         "cri-title": "Cryptography",
         "cri-desc": "Proprietary encryption method. It allows encoding and decoding of messages.",
         "a-title": "Online Tic Tac Toe",
-        "a-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone",
+        "a-desc": "Game with WebSocket, protections, reconnection, Local and Bot game modes. Possibility to install on smartphone.",
         "weather-title": "Weather",
         "weather-desc": "A weather website with external API integration with Open Weather Api",
         "flappy-title": "Flappy Bird",
