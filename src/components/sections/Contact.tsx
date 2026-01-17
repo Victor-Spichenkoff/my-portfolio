@@ -1,7 +1,7 @@
 "use client"
 
 import { useLocale, useTranslations } from "next-intl"
-import { ContactForms, ContactFormsColors } from "../template/contactsForm"
+import { ContactFormsColors } from "../template/contactsForm"
 import { Footer } from "../template/footer"
 import { Header } from "../template/header"
 import Image from "next/image"
@@ -11,7 +11,7 @@ import ExternalLink from "next/link"
 import { Link } from "@/navigation"
 import { useEffect, useState } from "react"
 import { ILocales } from "../utils/toggleLocale"
-import Reveal, { Fade } from "react-awesome-reveal"
+import { Fade } from "react-awesome-reveal"
 
 export const Contact = () => {
     const [locale, setLocale] = useState<ILocales>("en")
@@ -27,6 +27,12 @@ export const Contact = () => {
             console.error("Erro ao alterar o locale: Contact 20")
         }
     }, [])
+
+    const openCv = () => {
+        window.open(`/victor_spichenkoff_${locale}.pdf`, '_blank', 'noopener,noreferrer')
+
+    }
+
 
     return (
         <Fade direction="right">
@@ -59,7 +65,9 @@ export const Contact = () => {
                 {/* LOGO + CV */}
                 <div className="flex-wrap flex-col items-center p-16 pr-8 -mt-[8px] hidden md:flex">
                     <Image src={Diamond} alt="Logo" className="w-64 select-none" />
-                    <Button className="bg-transparent border border-green-900 hover:bg-green-600 transition-all duration-300" variant={"my-ghost"}>
+                    <Button
+                        onClick={openCv}
+                        className="bg-transparent border border-green-900 hover:bg-green-600 transition-all duration-300" variant={"my-ghost"}>
                         <ExternalLink href={`/victor_spichenkoff_${locale}.pdf`} target="_blank">{t("cv")}</ExternalLink>
                     </Button>
                 </div>

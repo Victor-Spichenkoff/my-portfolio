@@ -30,26 +30,29 @@ export const ContactForms = () => {
 
 
 export const ContactFormsColors = () => {
-    const theme = useTheme() 
+    const theme = useTheme()
     const currentTheme = theme.theme
 
     return (
-      <div className="flex space-x-8" id='contact-icons'>
-        <a href="https://github.com/Victor-Spichenkoff" target="_blank" rel="noopener noreferrer">
-          <FaGithub size={40} color={`${currentTheme == "light" ? "#000" : "#FFF"}`} /> {/* Cor oficial do GitHub */}
-        </a>
-        <a href="https://www.linkedin.com/in/victor-spichenkoff-santana-8314b2189/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={40} color="#0A66C2" /> {/* Cor oficial do LinkedIn */}
-        </a>
-        <a href="https://wa.me/5511987296116" target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp size={40} color="#25D366" /> {/* Cor oficial do WhatsApp */}
-        </a>
-        <a href="https://t.me/+5511987296116" target="_blank" rel="noopener noreferrer">
-          <FaTelegramPlane size={40} color="#0088CC" /> {/* Cor oficial do Telegram */}
-        </a>
-        <a href="mailto:victor.ss.estudos@gmail.com" target="_blank" rel="noopener noreferrer">
-          <HiOutlineMail size={40} color="#D44638" /> {/* Cor oficial do Gmail */}
-        </a>
-      </div>
+        <div className="flex space-x-8" id='contact-icons'>
+            <a href="https://github.com/Victor-Spichenkoff" target="_blank" rel="noopener noreferrer">
+                <FaGithub size={40}
+                          color={`${currentTheme == "light" ? "#000" : "#FFF"}`}/> {/* Cor oficial do GitHub */}
+            </a>
+            <a href="https://www.linkedin.com/in/victor-spichenkoff-santana-8314b2189/" target="_blank"
+               rel="noopener noreferrer">
+                <FaLinkedin size={40} color="#0A66C2"/> {/* Cor oficial do LinkedIn */}
+            </a>
+            <a href="https://wa.me/5511987296116" target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp size={40} color="#25D366"/> {/* Cor oficial do WhatsApp */}
+            </a>
+            <a href="https://t.me/+5511987296116" target="_blank" rel="noopener noreferrer">
+                <FaTelegramPlane size={40} color="#0088CC"/> {/* Cor oficial do Telegram */}
+            </a>
+            {/*<a href="mailto:victor.ss.jobs@gmail.com" rel="noopener noreferrer">*/}
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=victor.ss.jobs@gmail.com" target="_blank">
+                <HiOutlineMail size={40} color="#D44638"/> {/* Cor oficial do Gmail */}
+            </a>
+        </div>
     );
-  }
+}
