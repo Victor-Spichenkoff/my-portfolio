@@ -28,6 +28,12 @@ export const Contact = () => {
         }
     }, [])
 
+    const openCv = () => {
+        window.open(`/victor_spichenkoff_${locale}.pdf`, '_blank', 'noopener,noreferrer')
+
+    }
+
+
     return (
         <Fade direction="right">
 
@@ -59,7 +65,9 @@ export const Contact = () => {
                 {/* LOGO + CV */}
                 <div className="flex-wrap flex-col items-center p-16 pr-8 -mt-[8px] hidden md:flex">
                     <Image src={Diamond} alt="Logo" className="w-64 select-none" />
-                    <Button className="bg-transparent border border-green-900 hover:bg-green-600 transition-all duration-300" variant={"my-ghost"}>
+                    <Button
+                        onClick={openCv}
+                        className="bg-transparent border border-green-900 hover:bg-green-600 transition-all duration-300" variant={"my-ghost"}>
                         <ExternalLink href={`/victor_spichenkoff_${locale}.pdf`} target="_blank">{t("cv")}</ExternalLink>
                     </Button>
                 </div>
