@@ -1,7 +1,7 @@
 "use client"
 
 import { useLocale, useTranslations } from "next-intl"
-import { ContactForms, ContactFormsColors } from "../template/contactsForm"
+import { ContactFormsColors } from "../template/contactsForm"
 import { Footer } from "../template/footer"
 import { Header } from "../template/header"
 import Image from "next/image"
@@ -11,7 +11,7 @@ import ExternalLink from "next/link"
 import { Link } from "@/navigation"
 import { useEffect, useState } from "react"
 import { ILocales } from "../utils/toggleLocale"
-import Reveal, { Fade } from "react-awesome-reveal"
+import { Fade } from "react-awesome-reveal"
 
 export const Contact = () => {
     const [locale, setLocale] = useState<ILocales>("en")
