@@ -7,7 +7,7 @@ import type { Metadata } from "next";
   openGraph: {
     description: "💎 Your next full-stack developer — 3 years of experience building solid, well-crafted web applications.",
     url: "https://victor-spichenkoff.vercel.app/en",
-    siteName: "Victor Spichenkoff — Portfolio",
+    // siteName: "Victor Spichenkoff — Portfolio",
     images: [
       {
         url: "https://github.com/Victor-Spichenkoff/my-portfolio/blob/master/public/dima_transp.png?raw=true",
