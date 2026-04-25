@@ -9,6 +9,18 @@
         "bach": "Bachelor",
         "sk": "Skills"
     },
+    "Experiences": {
+        "multi-desc": "EXEMPLO DE UM CASO COM APENAS DESCRIÇÃO CORRIDA",
+        "title": "Experiences",
+        "multi-title": "Desenvolvedor Backend (C#)",
+        "multi-company": "Multilog (Consultoria)",
+        "multi-desc-1": "Atuação na criação de API ASP.NET completa para projeto de larga escala desde a primeira linha de código",
+        "multi-desc-2": "Contribuí para um produto com expectativa de faturamento de R$ 70 milhões no primeiro ano",
+        "multi-desc-3": "Implementei integrações com serviços externos",
+        "multi-desc-4": "Ambiente ágil e grande autonomia na tomada de decisões",
+        "multi-desc-5": "Proatividade, criação de API auxiliar para remover entraves"
+    },
+
     "Projects": {
         "title": "Main Projects",
         "million-title": "Million Show Game",

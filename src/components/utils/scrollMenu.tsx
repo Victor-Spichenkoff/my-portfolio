@@ -10,11 +10,11 @@ interface IScrollMenu {
 
 /**
  * INDEX COMEÇA EM 0
- * 
+ *
  */
 export const ScrollMenu = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const ids: string[] = ["me", "formation", "projects", "contact"]
+    const ids: string[] = ["me", "formation", "experiences", "projects", "contact"]
 
     const checkCurrentScreen = (id: string) => {
         const element = document.getElementById(id)
@@ -57,7 +57,7 @@ export const ScrollMenu = () => {
     const handleClick = (e:any, id:string) => {
         e.preventDefault()
         const targetElement = document.getElementById(id)
-    
+
         if (targetElement) {
           window.scrollTo({
             top: targetElement.offsetTop,
