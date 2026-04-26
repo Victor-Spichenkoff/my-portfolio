@@ -6,6 +6,7 @@ import { Link } from "@/navigation"
 import { AutomaticSlider } from "../utils/automaticSlider"
 import { AnimatedItemProjects } from "../utils/animationsForProjects"
 import { Slide, Reveal, Zoom } from "react-awesome-reveal"
+import {StackCardItem} from "@/components/template/stackCardItem.tsx";
 
 interface IProjectItem {
     title: string,
@@ -25,7 +26,7 @@ export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios
         <Link href={url ?? "/"} target="_blank">
 
         <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 bg-black/20 p-6 rounded-lg shadow-lg
-            `}
+            border border-card-border bg-card`}
             id="project-item-containter"
             >
             <div className="w-full md:w-1/2 p-4 relative">
@@ -34,11 +35,12 @@ export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios
                     {description && <p className="text-gray-700">{description}</p>}
                     {/* STACKS */}
                     {stacks && (
-                        <div className="flex mt-6 space-x-2 items-center flex-wrap space-y-2">
+                        <div className="flex mt-6 space-x-2 items-center flex-wrap">
                             {stacks.map((stack, index) => (
-                                <div key={index} className="w-8 h-8">
-                                    <Image src={stack} alt={stack} width={32} height={32} className="h-[32px] w-[32px]" />
-                                </div>
+                                <StackCardItem key={index} src={stack} alt={stack} size={30}/>
+                                // <div key={index} className="w-8 h-8">
+                                //      <Image src={stack} alt={stack} width={32} height={32} className="h-[32px] w-[32px]" />
+                                // </div>
                             ))}
                         </div>
                     )}
