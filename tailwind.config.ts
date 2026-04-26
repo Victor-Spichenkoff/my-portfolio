@@ -24,6 +24,7 @@ const config = {
         'card-title': 'var(--card-title)',
         'card-text': 'var(--card-text)',
         'card-muted': 'var(--card-muted)',
+        'card-semi-muted': 'var(--card-semi-muted)',
         light: {
           main: '#ffffff',
           text: '#111827',

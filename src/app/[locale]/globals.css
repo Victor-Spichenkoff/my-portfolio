@@ -7,7 +7,6 @@
         --background: 0 0% 100%;
         --foreground: 240 10% 3.9%;
 
-        --card: 0 0% 100%;
         --card-foreground: 240 10% 3.9%;
 
         --popover: 0 0% 100%;
@@ -37,13 +36,13 @@
         /*  NOVOS*/
         --highlight: #3b82f6;
         --card-border: rgb(0 0 0 / 0.5);
+        --card: rgb(0 0 0 / 0.2);
     }
 
     .dark {
         --background: 240 10% 3.9%;
         --foreground: 0 0% 98%;
 
-        --card: 240 10% 3.9%;
         --card-foreground: 0 0% 98%;
 
         --popover: 240 10% 3.9%;
@@ -74,7 +73,8 @@
         --card: rgb(0 0 0 / 0.2);
         --card-title: ;
         --card-text: ;
-        --card-muted: ;
+        --card-muted: #374151;
+        --card-semi-muted: #71717a;
     }
 }
 
@@ -118,9 +118,6 @@
     width: 0;
 }
 
-#project-item-containter:hover {
-    transform: scale(1.01);
-}
 
 
 #contact-icons a:hover {

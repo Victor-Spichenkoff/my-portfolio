@@ -35,7 +35,7 @@ export const ExperienceItem = ({
         <Link href={link ?? ""} target={"_blank"}>
             <section
                 className="group max-w-[900px] mx-auto flex flex-col gap-6 my-10
-                  bg-black/20
+                  bg-card
                   backdrop-blur-md border border-white/10
                   p-6 md:p-8 rounded-2xl shadow-xl
                   transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl"
@@ -62,16 +62,16 @@ export const ExperienceItem = ({
 
                         {/* HEADER */}
                         <div>
-                            <h2 className="text-2xl md:text-3xl font-semibold text-white">
+                            <h2 className="text-2xl md:text-3xl font-semibold">
                                 {title}
                             </h2>
-                            <h3 className="text-md md:text-lg text-zinc-400 mt-1">
+                            <h3 className="text-md md:text-lg text-card-semi-muted mt-1">
                                 {company}
                             </h3>
                         </div>
 
                         {/* DESCRIPTION */}
-                        <div className="mt-4 text-zinc-300 leading-relaxed">
+                        <div className="mt-4 leading-relaxed">
                             {bulletDescription?.length > 0 && (
                                 <ul className="list-disc ml-5 space-y-1 marker:text-zinc-500">
                                     {bulletDescription.map((item, i) => (
@@ -103,7 +103,7 @@ export const ExperienceItem = ({
                     )}
 
                     {/* DATE */}
-                    <div className="text-xs md:text-sm text-zinc-500 whitespace-nowrap">
+                    <div className="text-xs md:text-sm text-card-semi-muted whitespace-nowrap">
                         {date}
                     </div>
                 </div>

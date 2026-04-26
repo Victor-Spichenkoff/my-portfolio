@@ -1,6 +1,7 @@
 # TODO:
 - Aplicar o border-white/10 usando Tailwind para suportar tema claro/escuro
 - "card-border"
+- Adicionar texto para outras linguas
 
 
 # Dica imagens:

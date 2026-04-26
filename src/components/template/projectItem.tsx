@@ -25,17 +25,17 @@ export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios
         <Slide delay={0} direction={isLeftSide ? "left" : "right"} triggerOnce>
         <Link href={url ?? "/"} target="_blank">
 
-        <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 bg-black/20 p-6 rounded-lg shadow-lg
-            border border-card-border bg-card`}
-            id="project-item-containter"
+        <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 p-6 rounded-lg shadow-lg
+           group transition-transform duration-500 hover:scale-[1.01]
+            border border-card-border bg-black/20`}
             >
             <div className="w-full md:w-1/2 p-4 relative">
                 <div className="relative z-10">
                     <h2 className="text-3xl font-bold mb-2">{title}</h2>
-                    {description && <p className="text-gray-700">{description}</p>}
+                    {description && <p className="text-card-muted">{description}</p>}
                     {/* STACKS */}
                     {stacks && (
-                        <div className="flex mt-6 space-x-2 items-center flex-wrap">
+                        <div className="flex mt-6 space-x-2 items-center flex-wrap ">
                             {stacks.map((stack, index) => (
                                 <StackCardItem key={index} src={stack} alt={stack} size={30}/>
                                 // <div key={index} className="w-8 h-8">
