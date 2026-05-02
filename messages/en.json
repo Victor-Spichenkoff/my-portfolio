@@ -10,11 +10,10 @@
         "sk": "Skills"
     },
     "Experiences": {
-        "multi-desc": "EXEMPLO DE UM CASO COM APENAS DESCRIÇÃO CORRIDA",
         "title": "Experiences",
         "multi-title": "Desenvolvedor Backend (C#)",
         "multi-company": "Multilog (Consultoria)",
-        "multi-desc-1": "Desenvolvimento de API ASP.NET para sistema de larga escala desde a primeira linha de código",
+        "multi-desc-1": "Desenvolvimento de API ASP.NET para sistema de larga escala, atuando desde a primeira linha de código",
         "multi-desc-2": "Contribuição em produto com expectativa de R$ 70 mi/ano",
         "multi-desc-3": "Integração com serviços externos",
         "multi-desc-4": "Atuação em ambiente ágil com alta autonomia",

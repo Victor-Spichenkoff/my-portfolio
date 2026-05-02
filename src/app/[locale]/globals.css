@@ -37,6 +37,7 @@
         --highlight: #3b82f6;
         --card-border: rgb(0 0 0 / 0.5);
         --card: rgb(0 0 0 / 0.2);
+        --card-highlight: 107 114 128;
     }
 
     .dark {
@@ -75,6 +76,7 @@
         --card-text: ;
         --card-muted: #374151;
         --card-semi-muted: #71717a;
+        --card-highlight: 30 41 59;
     }
 }
 

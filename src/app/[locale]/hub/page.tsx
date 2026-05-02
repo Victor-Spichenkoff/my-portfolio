@@ -5,7 +5,7 @@ import {projectsData} from "@/data/projects.tsx";
 import {ProjectItem} from "@/components/template/projectItem.tsx";
 import {useTranslations} from "next-intl";
 import {ScrollMenu} from "@/components/utils/scrollMenu.tsx";
-import {allProjectsData} from "@/data/allProjects.ts";
+import {allProjectsData, ExFirstPage} from "@/data/allProjects.ts";
 import {ThemeToggle} from "@/components/utils/themeToggle.tsx";
 import {ToggleLocale} from "@/components/utils/toggleLocale.tsx";
 import Link from "next/link";
@@ -55,7 +55,7 @@ export default function HubPage() {
                     )
                 })}
                 {/*ORIGINAL*/}
-                {projectsData.map((p, i) => {
+                {[...projectsData, ...ExFirstPage].map((p, i) => {
                     return (
                         <ProjectItem
                             title={originalT(`${p.translate}-title`)}

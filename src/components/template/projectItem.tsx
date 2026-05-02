@@ -25,9 +25,9 @@ export const ProjectItem = ({ title, description, bgImagesSrc = [MokedPortFolios
         <Slide delay={0} direction={isLeftSide ? "left" : "right"} triggerOnce>
         <Link href={url ?? "/"} target="_blank">
 
-        <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 p-6 rounded-lg shadow-lg
+        <div className={`flex ${isLeftSide ? 'flex-row-reverse' : 'flex-row'} items-center max-w-[900px] mx-auto my-8 p-6 rounded-2xl shadow-lg
            group transition-transform duration-500 hover:scale-[1.01]
-            border border-card-border bg-black/20`}
+            border border-card-border bg-card`}
             >
             <div className="w-full md:w-1/2 p-4 relative">
                 <div className="relative z-10">

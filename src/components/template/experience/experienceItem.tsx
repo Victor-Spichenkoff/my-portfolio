@@ -34,17 +34,17 @@ export const ExperienceItem = ({
     return (<Slide delay={0} direction={isEven ? "left" : "right"} triggerOnce>
         <Link href={link ?? ""} target={"_blank"}>
             <section
-                className="group max-w-[900px] mx-auto flex flex-col gap-6 my-10
+                className="group max-w-[950px] mx-auto flex flex-col gap-6 my-10
                   bg-card
-                  backdrop-blur-md border border-white/10
+                  backdrop-blur-md border border-card-border
                   p-6 md:p-8 rounded-2xl shadow-xl
                   transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl"
             >
-                <div className="flex flex-col md:flex-row gap-6">
+                <div className="flex flex-col lg:flex-row gap-6">
 
                     {/* IMAGE */}
                     <div
-                        className="relative w-full md:w-[40%] aspect-[4/3]
+                        className="relative w-full lg:w-[40%] aspect-[4/3]
                          overflow-hidden rounded-xl flex-shrink-0"
                     >
                         {image && (

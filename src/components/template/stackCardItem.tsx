@@ -11,7 +11,7 @@ interface IStackCardItem {
 export const StackCardItem = ({alt, src, size}: IStackCardItem) => {
     return (
         <div
-            className={`p-1.5 rounded-md bg-white/5 hover:bg-white/10 transition`}
+            className={`p-1.5 rounded-md  bg-card-highlight hover:bg-card-highlight/80`}
         >
             <Image
                 src={src}
