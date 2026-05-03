@@ -21,7 +21,7 @@ export const AllExperiences: IAllExperiences[] = [
         stacks: experiencesStackList.multi,
         bulletsCount: 5,
         image: mutilLogo,
-        link: "https://www.linkedin.com/company/multilog/posts/?feedView=all",
+        link: "https://site.multilog.com.br",
         date: "02/2026 - 06/2026"
     }
 ]

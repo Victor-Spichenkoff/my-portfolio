@@ -2,12 +2,22 @@
     "Presentation": {
         "title": "¡Hola! Soy Victor! 👋",
         "subtitle": "Desarrollador fullstack",
-        "text": "He estado profundizando mis conocimientos en el área del desarrollo durante 3 años. Cada día me siento más motivado a buscar nuevas maneras de evolucionar. Con un conocimiento sólido, siempre estoy en busca de nuevas oportunidades para colaborar en la creación de proyectos innovadores y experiencias impactantes."
+        "text": "Desarrollador con 4 años de experiencia, incluyendo trabajo en una empresa de gran tamaño. He participado en proyectos reales, trabajando de forma independiente y colaborativa, lo que fortaleció mi capacidad para resolver problemas y desarrollar soluciones eficientes y escalables."
     },
     "Formation": {
         "title": "Formaciones",
         "bach": "Licenciatura",
         "sk": "Habilidades"
+    },
+    "Experiences": {
+        "title": "Experiencias",
+        "multi-title": "Desarrollador Backend (C#)",
+        "multi-company": "Multilog (Consultoría)",
+        "multi-desc-1": "Desarrollo de API ASP.NET para un sistema a gran escala, participando desde la primera línea de código",
+        "multi-desc-2": "Contribución a un producto con una expectativa de R$ 70 millones/año",
+        "multi-desc-3": "Integración con servicios externos",
+        "multi-desc-4": "Trabajo en un entorno ágil con alta autonomía",
+        "multi-desc-5": "Creación de una API auxiliar para reducir obstáculos en el desarrollo"
     },
     "Projects": {
         "title": "Principales Proyectos",

@@ -1,6 +1,6 @@
 import {Header} from "@/components/template/header.tsx";
 import {useTranslations} from "next-intl";
-import {ExperienceItem} from "@/components/template/experience/experienceItem.tsx";
+import {ExperienceDate, ExperienceItem} from "@/components/template/experience/experienceItem.tsx";
 import {AllExperiences} from "@/data/experiences/allExperiences.ts";
 
 
@@ -24,7 +24,7 @@ export const Experiences = () => {
                 key={exp.translate}
                 title={t(`${exp.translate}-title`)}
                 company={t(`${exp.translate}-company`)}
-                date={exp.date}
+                date={t(`${exp.translate}-date`) as ExperienceDate}
                 stacks={exp.stacks}
                 bulletDescription={exp.bulletsCount ? generateBulletDescription(exp.bulletsCount, exp.translate) : [] }
                 rawDescription={exp.bulletsCount ? undefined : `${exp.translate}-desc`}

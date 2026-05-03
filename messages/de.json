@@ -2,12 +2,22 @@
     "Presentation": {
         "title": "Hallo! Ich bin Victor! 👋",
         "subtitle": "Fullstack-Entwickler",
-        "text": "Seit zwei Jahren vertiefe ich mein Wissen im Bereich der Entwicklung. Jeden Tag bin ich motivierter, neue Wege zur Weiterentwicklung zu finden. Mit einem soliden Fundament suche ich immer nach neuen Möglichkeiten, um bei der Erstellung innovativer Projekte und beeindruckender Erlebnisse mitzuwirken."
+        "text": "Entwickler mit 4 Jahren Erfahrung, einschließlich Tätigkeit in einem großen Unternehmen. Ich habe an realen Projekten mitgewirkt und sowohl selbstständig als auch im Team gearbeitet, was meine Fähigkeit gestärkt hat, Probleme zu lösen und effiziente sowie skalierbare Lösungen zu entwickeln.'"
     },
     "Formation": {
         "title": "Ausbildung",
         "bach": "Bachelor",
         "sk": "Fähigkeiten"
+    },
+    "Experiences": {
+        "title": "Erfahrungen",
+        "multi-title": "Backend-Entwickler (C#)",
+        "multi-company": "Multilog (Beratung)",
+        "multi-desc-1": "Entwicklung einer ASP.NET-API für ein groß angelegtes System, Mitarbeit von der ersten Codezeile an",
+        "multi-desc-2": "Beitrag zu einem Produkt mit einer erwarteten Einnahme von R$ 70 Millionen pro Jahr",
+        "multi-desc-3": "Integration mit externen Diensten",
+        "multi-desc-4": "Arbeit in einer agilen Umgebung mit hoher Eigenverantwortung",
+        "multi-desc-5": "Erstellung einer unterstützenden API zur Reduzierung von Entwicklungsengpässen"
     },
     "Projects": {
         "title": "Hauptprojekte",
@@ -23,7 +33,6 @@
         "tic-desc": "Spiel mit WebSocket, Schutz, Wiederverbindung, lokalem und Bot-Spielmodus. Möglichkeit zur Installation auf dem Smartphone.",
         "z-title": "Z",
         "z-desc": "Ein soziales Netzwerk, inspiriert von X! Likes-System, Folgen, Bilder hochladen, Trending Topics, Suche"
-
     },
     "Hub": {
         "portfolios-title": "Portfolios teilen",
