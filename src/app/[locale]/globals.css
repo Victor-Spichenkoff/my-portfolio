@@ -3,132 +3,165 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 240 10% 3.9%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+        --card-foreground: 240 10% 3.9%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 240 10% 3.9%;
 
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
+        --primary: 240 5.9% 10%;
+        --primary-foreground: 0 0% 98%;
 
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
+        --secondary: 240 4.8% 95.9%;
+        --secondary-foreground: 240 5.9% 10%;
 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+        --muted: 240 4.8% 95.9%;
+        --muted-foreground: 240 3.8% 46.1%;
 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+        --accent: 240 4.8% 95.9%;
+        --accent-foreground: 240 5.9% 10%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
+        --border: 240 5.9% 90%;
+        --input: 240 5.9% 90%;
+        --ring: 240 10% 3.9%;
 
-    --radius: 0.5rem;
-  }
+        --radius: 0.5rem;
 
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+        /*  NOVOS*/
+        --highlight: #3b82f6;
+        --card-border: rgb(0 0 0 / 0.5);
+        --card: rgb(0 0 0 / 0.2);
+        --card-highlight: 107 114 128;
+    }
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    .dark {
+        --background: 240 10% 3.9%;
+        --foreground: 0 0% 98%;
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+        --card-foreground: 0 0% 98%;
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
+        --popover: 240 10% 3.9%;
+        --popover-foreground: 0 0% 98%;
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+        --primary: 0 0% 98%;
+        --primary-foreground: 240 5.9% 10%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+        --secondary: 240 3.7% 15.9%;
+        --secondary-foreground: 0 0% 98%;
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+        --muted: 240 3.7% 15.9%;
+        --muted-foreground: 240 5% 64.9%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+        --accent: 240 3.7% 15.9%;
+        --accent-foreground: 0 0% 98%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-  }
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+
+        --border: 240 3.7% 15.9%;
+        --input: 240 3.7% 15.9%;
+        --ring: 240 4.9% 83.9%;
+
+        /*  NOVOS - cores*/
+        --highlight: #60a5fa;
+        --card-border: rgb(255 255 255 / 0.1);
+        --card: rgb(0 0 0 / 0.2);
+        --card-title: ;
+        --card-text: ;
+        --card-muted: #374151;
+        --card-semi-muted: #71717a;
+        --card-highlight: 30 41 59;
+    }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
+    * {
+        @apply border-border;
+    }
 
-  body {
-    @apply bg-background text-foreground;
-  }
+    body {
+        @apply bg-background text-foreground;
+    }
 }
 
 
-
 .slider {
-  animation: scroll 7s linear infinite;
+    animation: scroll 7s linear infinite;
 }
 
 
 #slider1 {
-  animation: scroll-absolute 20s linear infinite;
+    animation: scroll-absolute 20s linear infinite;
 }
+
 #slider2 {
-  animation: scroll-absolute 20s 10s linear infinite;
+    animation: scroll-absolute 20s 10s linear infinite;
 }
 
 
 @keyframes scroll-absolute {
-  0% {
-    left: 0;
+    0% {
+        left: 0;
 
-  }
+    }
 
-  100% {
-    left: -168%;
-  }
+    100% {
+        left: -168%;
+    }
 }
 
 ::-webkit-scrollbar {
-  width: 0;
+    width: 0;
 }
 
-#project-item-containter:hover {
-  transform: scale(1.01);
-}
 
 
 #contact-icons a:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #animation-item {
-  display: inherit;
-  width: inherit;
-  height: inherit;
+    display: inherit;
+    width: inherit;
+    height: inherit;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+a.slide::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* ajusta a posição do traço */
+    width: 0;
+    height: 2px;
+    background-color: var(--highlight);
+    transition: width 0.3s ease;
+}
+
+a.slide:hover::before {
+    width: 100%;
 }
 
 
 @keyframes slide-left {
-  0%{}
+    0% {
+    }
 }
 
 
 @media (min-height: 590px) and (min-width: 868px) {
-  #scroll-tecnologies {
-    display: block;
-  }
+    #scroll-tecnologies {
+        display: block;
+    }
 }

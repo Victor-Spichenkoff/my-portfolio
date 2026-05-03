@@ -13,6 +13,7 @@ import {useLocale} from "next-intl"
 import {ApiUrls} from "@/data/apiUrls.ts";
 import {ConnectionTest} from "@/components/utils/apisRequester.tsx";
 import {useEffect} from "react";
+import {Experiences} from "@/components/sections/Experiences.tsx";
 
 
 export default function Home() {
@@ -47,6 +48,11 @@ export default function Home() {
 
             <FullSection>
                 <Formation/>
+            </FullSection>
+
+
+            <FullSection>
+                <Experiences />
             </FullSection>
 
 

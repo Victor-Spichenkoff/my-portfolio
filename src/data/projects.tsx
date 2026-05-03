@@ -1,18 +1,6 @@
 "use client"
 
 import { AllStack, getSeveralStacksIcons } from "./stack"
-import P1 from "@/assets/screenshots/port1.png"
-import P2 from "@/assets/screenshots/port2.png"
-import P3 from "@/assets/screenshots/port3.png"
-
-import A1 from "@/assets/screenshots/artc1.png"
-import A2 from "@/assets/screenshots/artc2.png"
-import A3 from "@/assets/screenshots/artc3.png"
-
-import PAG1 from "@/assets/screenshots/pag1.png"
-import PAG2 from "@/assets/screenshots/pag2.png"
-import PAG3 from "@/assets/screenshots/pag3.png"
-
 
 
 import T1 from "@/assets/screenshots/ter1.png"
@@ -33,13 +21,9 @@ import MS2 from "@/assets/screenshots/MS2.png"
 import MS3 from "@/assets/screenshots/MS3.png"
 import MS4 from "@/assets/screenshots/MS4.png"
 
-import Z1 from "@/assets/screenshots/z1.png"
-import Z2 from "@/assets/screenshots/z2.png"
 
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
-import B1 from "@/assets/screenshots/b1.png";
-import B2 from "@/assets/screenshots/b2.png";
-import B3 from "@/assets/screenshots/b3.png";
+
 import {getRedirectUrl} from "@/utils/callRedirectApi.ts";
 
 export interface IProjectForItem {
@@ -88,7 +72,6 @@ const urls = {
     paginationApi: getRedirectUrl("paginationApi"),
     ticTacOnline: getRedirectUrl("ticTacToe"),
     z: "https://z-frontend-seven.vercel.app/signin",
-
 }
 
 
@@ -113,24 +96,12 @@ export const projectsData: IProjectForItem[] = [
         stacks: projectsWithStack.Server,
         url: urls.serverMaintenance
     },
-    {
-        translate: "pag",
-        images: [ PAG1, PAG3, PAG2 ],
-        stacks: projectsWithStack.Pagination,
-        url: urls.paginationApi
-    },
+
     {
         translate: "tic",
         images: [ TIC1, TIC2, TIC3 ],
         stacks: projectsWithStack.TicTac,
         url: urls.ticTacOnline
-    },
-    {
-        translate: "z",
-        //TODO: Z
-        images: [ Z1, Z2 ],
-        stacks: projectsWithStack.Z,
-        url: urls.z
     },
 ]
 

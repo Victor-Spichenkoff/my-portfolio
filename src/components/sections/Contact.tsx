@@ -48,7 +48,7 @@ export const Contact = () => {
                         <div className="max-w-[300px]">
                             {t("text1")}
                             <Link href={"/hub"}
-                                className="text-dark-highlight"
+                                className="slide text-dark-highlight"
                             >{t("here")}</Link>
                             {t("text2")}
                         </div>

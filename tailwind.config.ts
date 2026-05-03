@@ -19,6 +19,13 @@ const config = {
     },
     extend: {
       colors: {
+        card: 'var(--card)',
+        "card-border": "var(--card-border)",
+        'card-title': 'var(--card-title)',
+        'card-text': 'var(--card-text)',
+        'card-muted': 'var(--card-muted)',
+        'card-highlight': 'rgb(var(--card-highlight)  / <alpha-value>)',
+        'card-semi-muted': 'var(--card-semi-muted)',
         light: {
           main: '#ffffff',
           text: '#111827',
@@ -62,11 +69,7 @@ const config = {
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
+        }
       },
       borderRadius: {
         lg: "var(--radius)",

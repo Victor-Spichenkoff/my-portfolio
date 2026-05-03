@@ -2,13 +2,25 @@
     "Presentation": {
         "title": "Hi! I am Victor! 👋",
         "subtitle": "Fullstack developer",
-        "text": "I have been deepening my knowledge in the field of development for the past 3 years. Every day, I am more motivated to find new ways to evolve. With a solid foundation, I am always looking for new opportunities to collaborate in creating innovative projects and impactful experiences."
+        "text": "Developer with 4 years of experience, including working at a large company. I have participated in real-world projects, working both independently and collaboratively, which strengthened my ability to solve problems and develop efficient and scalable solutions."
     },
     "Formation": {
         "title": "Formation",
         "bach": "Bachelor",
         "sk": "Skills"
     },
+    "Experiences": {
+        "title": "Experiences",
+        "multi-title": "Backend Developer (C#)",
+        "multi-company": "Multilog (Consulting)",
+        "multi-desc-1": "Development of ASP.NET API for a large-scale system, contributing from the very first line of code",
+        "multi-desc-2": "Contribution to a product with an expected revenue of R$ 70 million/year",
+        "multi-desc-3": "Integration with external services",
+        "multi-desc-4": "Work in an agile environment with high autonomy",
+        "multi-desc-5": "Creation of an auxiliary API to reduce development bottleneck",
+        "multi-date": "02/2026 - Now"
+    },
+
     "Projects": {
         "title": "Main Projects",
         "million-title": "Million Show Game",
