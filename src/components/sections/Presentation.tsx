@@ -16,13 +16,13 @@ export const Presentation = () => {
 
     return (
         <Reveal duration={1000} delay={0} triggerOnce>
-            <div className="relative h-screen flex justify-start items-start 2xl:items-center">
+            <div className="relative h-screen flex justify-start items-start 2xl:items-start">
                 <div className="flex space-x-4 absolute top-4 lg: flex-wrap" id="me">
                     <ThemeToggle />
                     <ToggleLocale />
                 </div>
 
-                <div className="w-full max-w-[1200px] md:ml-20 relative mt-32">
+                <div className="w-full max-w-[1200px] md:ml-20 relative mt-32 2xl:mt-52">
                     <div className="flex justify-between  mx-auto">
                         <Header label={title} />
                     </div>
