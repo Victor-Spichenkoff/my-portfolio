@@ -1,10 +1,7 @@
 import { Header } from "../template/header"
 import { useTranslations } from "next-intl"
-import { ScrolTecnologies } from "../utils/scrollTecnologies"
 import { FormationItem } from "../template/formationItem"
 import { formationWithStack as f } from "@/data/formation"
-import { AnimatedItemProjects } from "../utils/animationsForProjects"
-import { Bounce } from "react-awesome-reveal"
 
 export const Formation = () => {
     const t = useTranslations("Formation")
